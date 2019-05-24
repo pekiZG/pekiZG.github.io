@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>Init</title>
-      <link>https://pekiZG.github.io/posts/init/</link>
+      <title>The move</title>
+      <link>https://pekiZG.github.io/posts/the-move/</link>
       <pubDate>Thu, 23 May 2019 23:08:11 +0200</pubDate>
       
-      <guid>https://pekiZG.github.io/posts/init/</guid>
-      <description> Hello world  This is initial post here for test  </description>
+      <guid>https://pekiZG.github.io/posts/the-move/</guid>
+      <description>Hello world again! So I forgot to extend my personal domain and decided to move to github for my personal blog.
+My current todo list: - Move old posts (still not sure how) - Find better hugo theme</description>
     </item>
     
     <item>
