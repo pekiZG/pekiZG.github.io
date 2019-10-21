@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | pekiZG Personal ramblings</title>
-    <link>https://pekiZG.github.io/posts/</link>
-      <atom:link href="https://pekiZG.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://pekiZG.github.io/post/</link>
+      <atom:link href="https://pekiZG.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 23:08:11 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pekiZG.github.io/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://pekiZG.github.io/posts/</link>
+      <link>https://pekiZG.github.io/post/</link>
     </image>
     
     <item>
       <title>The move</title>
-      <link>https://pekiZG.github.io/posts/the-move/</link>
-      <pubDate>Thu, 23 May 2019 23:08:11 +0200</pubDate>
-      <guid>https://pekiZG.github.io/posts/the-move/</guid>
+      <link>https://pekiZG.github.io/post/the-move/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://pekiZG.github.io/post/the-move/</guid>
       <description>
 
 &lt;h1 id=&#34;hello-world-again&#34;&gt;Hello world again!&lt;/h1&gt;
@@ -29,6 +29,10 @@
 &lt;li&gt;Move old posts (still not sure how)&lt;/li&gt;
 &lt;li&gt;Find better hugo theme&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Update:&lt;/p&gt;
+
+&lt;p&gt;I won&amp;rsquo;t be moving anything, things can always be found on the wayback machine;&lt;/p&gt;
 </description>
     </item>
     

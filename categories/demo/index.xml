@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pekiZG Personal ramblings</title>
-    <link>https://pekiZG.github.io/</link>
-      <atom:link href="https://pekiZG.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>pekiZG Personal ramblings</description>
+    <title>Demo | pekiZG Personal ramblings</title>
+    <link>https://pekiZG.github.io/categories/demo/</link>
+      <atom:link href="https://pekiZG.github.io/categories/demo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Demo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pekiZG.github.io/img/icon-192.png</url>
-      <title>pekiZG Personal ramblings</title>
-      <link>https://pekiZG.github.io/</link>
+      <title>Demo</title>
+      <link>https://pekiZG.github.io/categories/demo/</link>
     </image>
     
     <item>
@@ -33,19 +33,6 @@
 &lt;p&gt;Update:&lt;/p&gt;
 
 &lt;p&gt;I won&amp;rsquo;t be moving anything, things can always be found on the wayback machine;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Noblesse oblige and about me</title>
-      <link>https://pekiZG.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/about/</guid>
-      <description>&lt;p&gt;&lt;em&gt;With wealth, power and prestige come responsibilities.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The more you know more you have to share; That is the only way to more forward.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s my main drive; constantly learn and improve yourself and people around you.&lt;/p&gt;
 </description>
     </item>
     

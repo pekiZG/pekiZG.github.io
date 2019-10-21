@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | pekiZG Personal ramblings</title>
+    <link>https://pekiZG.github.io/authors/</link>
+      <atom:link href="https://pekiZG.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pekiZG.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://pekiZG.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://pekiZG.github.io/authors/admin/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://pekiZG.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;Petar Šlat is technology promiscuous person with interest in everything tied to code. Loves to attend monthly local meetup groups. In his spare time he plays around in his home lab where he is testing out new tools and technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

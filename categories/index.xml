@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on pekiZG Personal ramblings</title>
+    <title>Categories | pekiZG Personal ramblings</title>
     <link>https://pekiZG.github.io/categories/</link>
-    <description>Recent content in Categories on pekiZG Personal ramblings</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+      <atom:link href="https://pekiZG.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pekiZG.github.io/img/icon-192.png</url>
+      <title>Categories</title>
+      <link>https://pekiZG.github.io/categories/</link>
+    </image>
     
-	<atom:link href="https://pekiZG.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Demo</title>
+      <link>https://pekiZG.github.io/categories/demo/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://pekiZG.github.io/categories/demo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
