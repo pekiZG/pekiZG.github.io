@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How to | Personal ramblings</title>
+    <link>https://pekiZG.github.io/tags/how-to/</link>
+      <atom:link href="https://pekiZG.github.io/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <description>How to</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pekiZG.github.io/img/icon-192.png</url>
+      <title>How to</title>
+      <link>https://pekiZG.github.io/tags/how-to/</link>
+    </image>
+    
+    <item>
+      <title>How to enable .net 2.0 on windows 10</title>
+      <link>https://pekiZG.github.io/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://pekiZG.github.io/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</guid>
+      <description>&lt;p&gt;A few day ago I ran into a interesting issue.
+I needed .net 2.0 on Windows 10 machine.&lt;/p&gt;
+
+&lt;p&gt;Yeah, I know… welcome to the year 2016.&lt;/p&gt;
+
+&lt;p&gt;Lucky the issue is resolved easily.
+Search for “Turn Windows features on or off” or look it up in Control panel.&lt;/p&gt;
+
+&lt;p&gt;There you will find &amp;ldquo;.NET Framework 3.5 (includes .NET 2.0 and 3.0)&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Just check it and click OK.
+The system will do the rest for you.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo | pekiZG Personal ramblings</title>
+    <title>Demo | Personal ramblings</title>
     <link>https://pekiZG.github.io/categories/demo/</link>
       <atom:link href="https://pekiZG.github.io/categories/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pekiZG.github.io/img/icon-192.png</url>
       <title>Demo</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>The move</title>
-      <link>https://pekiZG.github.io/post/the-move/</link>
+      <link>https://pekiZG.github.io/post/2019/05/the-move/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/post/the-move/</guid>
+      <guid>https://pekiZG.github.io/post/2019/05/the-move/</guid>
       <description>
 
 &lt;h1 id=&#34;hello-world-again&#34;&gt;Hello world again!&lt;/h1&gt;

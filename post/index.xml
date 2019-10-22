@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | pekiZG Personal ramblings</title>
+    <title>Posts | Personal ramblings</title>
     <link>https://pekiZG.github.io/post/</link>
       <atom:link href="https://pekiZG.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pekiZG.github.io/img/icon-192.png</url>
       <title>Posts</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>The move</title>
-      <link>https://pekiZG.github.io/post/the-move/</link>
+      <link>https://pekiZG.github.io/post/2019/05/the-move/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/post/the-move/</guid>
+      <guid>https://pekiZG.github.io/post/2019/05/the-move/</guid>
       <description>
 
 &lt;h1 id=&#34;hello-world-again&#34;&gt;Hello world again!&lt;/h1&gt;
@@ -33,6 +33,26 @@
 &lt;p&gt;Update:&lt;/p&gt;
 
 &lt;p&gt;I won&amp;rsquo;t be moving anything, things can always be found on the wayback machine;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to enable .net 2.0 on windows 10</title>
+      <link>https://pekiZG.github.io/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://pekiZG.github.io/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</guid>
+      <description>&lt;p&gt;A few day ago I ran into a interesting issue.
+I needed .net 2.0 on Windows 10 machine.&lt;/p&gt;
+
+&lt;p&gt;Yeah, I know… welcome to the year 2016.&lt;/p&gt;
+
+&lt;p&gt;Lucky the issue is resolved easily.
+Search for “Turn Windows features on or off” or look it up in Control panel.&lt;/p&gt;
+
+&lt;p&gt;There you will find &amp;ldquo;.NET Framework 3.5 (includes .NET 2.0 and 3.0)&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Just check it and click OK.
+The system will do the rest for you.&lt;/p&gt;
 </description>
     </item>
     
