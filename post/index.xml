@@ -37,6 +37,50 @@
     </item>
     
     <item>
+      <title>Ditto copy/paste manager</title>
+      <link>https://pekiZG.github.io/post/2016/04/ditto-copy-paste-manager/</link>
+      <pubDate>Fri, 22 Apr 2016 16:02:52 +0200</pubDate>
+      <guid>https://pekiZG.github.io/post/2016/04/ditto-copy-paste-manager/</guid>
+      <description>&lt;p&gt;I use this tool on a daily base. Can’t imagine how I worked without it. It’s a little tool that sits in your tray and waits on you to copy stuff. From images to text. Everything is saved and later (few clicks and copy and paste later) you can search for it and paste it again.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ditto.jpg&#34; data-caption=&#34;Ditto&#34;&gt;
+&lt;img src=&#34;ditto.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Ditto
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;I think it’s a kind of tool that boosts your productivity.&lt;/p&gt;
+
+&lt;p&gt;Link:
+&lt;a href=&#34;http://ditto-cp.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;http://ditto-cp.sourceforge.net/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to Install NUnit testing Framework and Visual Studio Test Adapter</title>
       <link>https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/</link>
       <pubDate>Tue, 19 Apr 2016 13:05:15 +0200</pubDate>
