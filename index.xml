@@ -37,6 +37,32 @@
     </item>
     
     <item>
+      <title>How to Install NUnit testing Framework and Visual Studio Test Adapter</title>
+      <link>https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/</link>
+      <pubDate>Tue, 19 Apr 2016 13:05:15 +0200</pubDate>
+      <guid>https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/</guid>
+      <description>&lt;p&gt;GitHub project I’m currently playing around with required NUnit testing framework.
+At first I have installed latest and the greatest version 3.2.1.
+Tried to run the tests, nothing happened.
+Hmmmm, what was I missing? I’m always missing something.
+After poking around the project I soon realized 3.2.1 was not the right version.
+Written tests were not running because they were written for version 2.6.4.
+After additional installation and setting up of test adapters for visual studio everything worked.&lt;/p&gt;
+
+&lt;p&gt;One test that’s failing is of course written by me. It’s a smoke test for TCP implementation I’m working on.&lt;/p&gt;
+
+&lt;p&gt;All the needed links are below.&lt;/p&gt;
+
+&lt;p&gt;NUnit testing Framework
+&lt;a href=&#34;http://www.nunit.org/index.php?p=download&#34; target=&#34;_blank&#34;&gt;http://www.nunit.org/index.php?p=download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;NUnit Test Adapter for Visual Studio Test Adapter
+&lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&#34; target=&#34;_blank&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&lt;/a&gt;
+&lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&#34; target=&#34;_blank&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to enable .net 2.0 on windows 10</title>
       <link>https://pekiZG.github.io/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>

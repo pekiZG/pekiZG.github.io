@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Personal thoughts and sandbox of...">
+  <meta name="description" content="GitHub project I’m currently playing around with required NUnit testing framework. At first I have installed latest and the greatest version 3.2.1. Tried to run the tests, nothing happened. Hmmmm, what was I missing? I’m always missing something. After poking around the project I soon realized 3.2.1 was not the right version. Written tests were not running because they were written for version 2.6.4. After additional installation and setting up of test adapters for visual studio everything worked.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pekiZG.github.io/categories/demo/">
+  <link rel="alternate" hreflang="en-us" href="https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/">
 
   
 
@@ -95,14 +95,12 @@
 
 
   
-  <link rel="alternate" href="/categories/demo/index.xml" type="application/rss+xml" title="Personal ramblings">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://pekiZG.github.io/categories/demo/">
+  <link rel="canonical" href="https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/">
 
   
   
@@ -118,18 +116,65 @@
   <meta property="twitter:creator" content="@pekiZG">
   
   <meta property="og:site_name" content="Personal ramblings">
-  <meta property="og:url" content="https://pekiZG.github.io/categories/demo/">
-  <meta property="og:title" content="Demo | Personal ramblings">
-  <meta property="og:description" content="Personal thoughts and sandbox of..."><meta property="og:image" content="https://pekiZG.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/">
+  <meta property="og:title" content="How to Install NUnit testing Framework and Visual Studio Test Adapter | Personal ramblings">
+  <meta property="og:description" content="GitHub project I’m currently playing around with required NUnit testing framework. At first I have installed latest and the greatest version 3.2.1. Tried to run the tests, nothing happened. Hmmmm, what was I missing? I’m always missing something. After poking around the project I soon realized 3.2.1 was not the right version. Written tests were not running because they were written for version 2.6.4. After additional installation and setting up of test adapters for visual studio everything worked."><meta property="og:image" content="https://pekiZG.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://pekiZG.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-05-23T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2016-04-19T13:05:15&#43;02:00">
+    
+    <meta property="article:modified_time" content="2016-04-19T13:05:15&#43;02:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/"
+  },
+  "headline": "How to Install NUnit testing Framework and Visual Studio Test Adapter",
+  
+  "datePublished": "2016-04-19T13:05:15+02:00",
+  "dateModified": "2016-04-19T13:05:15+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Petar Šlat"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Personal ramblings",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pekiZG.github.io/img/icon-512.png"
+    }
+  },
+  "description": "GitHub project I’m currently playing around with required NUnit testing framework. At first I have installed latest and the greatest version 3.2.1. Tried to run the tests, nothing happened. Hmmmm, what was I missing? I’m always missing something. After poking around the project I soon realized 3.2.1 was not the right version. Written tests were not running because they were written for version 2.6.4. After additional installation and setting up of test adapters for visual studio everything worked."
+}
+</script>
+
+  
 
   
 
@@ -137,10 +182,13 @@
   
 
 
+  
 
 
 
-  <title>Demo | Personal ramblings</title>
+
+
+  <title>How to Install NUnit testing Framework and Visual Studio Test Adapter | Personal ramblings</title>
 
 </head>
 
@@ -256,54 +304,310 @@
 </nav>
 
 
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>How to Install NUnit testing Framework and Visual Studio Test Adapter</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 19, 2016
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>GitHub project I’m currently playing around with required NUnit testing framework.
+At first I have installed latest and the greatest version 3.2.1.
+Tried to run the tests, nothing happened.
+Hmmmm, what was I missing? I’m always missing something.
+After poking around the project I soon realized 3.2.1 was not the right version.
+Written tests were not running because they were written for version 2.6.4.
+After additional installation and setting up of test adapters for visual studio everything worked.</p>
+
+<p>One test that’s failing is of course written by me. It’s a smoke test for TCP implementation I’m working on.</p>
+
+<p>All the needed links are below.</p>
+
+<p>NUnit testing Framework
+<a href="http://www.nunit.org/index.php?p=download" target="_blank">http://www.nunit.org/index.php?p=download</a></p>
+
+<p>NUnit Test Adapter for Visual Studio Test Adapter
+<a href="https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d" target="_blank">https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d</a>
+<a href="https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d" target="_blank">https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d</a></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/&amp;text=How%20to%20Install%20NUnit%20testing%20Framework%20and%20Visual%20Studio%20Test%20Adapter" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/&amp;t=How%20to%20Install%20NUnit%20testing%20Framework%20and%20Visual%20Studio%20Test%20Adapter" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20to%20Install%20NUnit%20testing%20Framework%20and%20Visual%20Studio%20Test%20Adapter&amp;body=https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/&amp;title=How%20to%20Install%20NUnit%20testing%20Framework%20and%20Visual%20Studio%20Test%20Adapter" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=How%20to%20Install%20NUnit%20testing%20Framework%20and%20Visual%20Studio%20Test%20Adapter%20https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/&amp;title=How%20to%20Install%20NUnit%20testing%20Framework%20and%20Visual%20Studio%20Test%20Adapter" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
 
 
 
-
-
-
-
-
-
-
-  
 
   
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Demo</h1>
-
   
+  <div class="media author-card content-widget-hr">
+    
+      <img class="portrait mr-3" src="https://s.gravatar.com/avatar/1b5216963df07edaf7532f97374461e4?s=200')" alt="Avatar">
+    
 
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://pekiZG.github.io">Petar Šlat</a></h5>
+      <h6 class="card-subtitle">Software engineer / SRE / DevOps</h6>
+      <p class="card-text">My current interests are in automation and optimiztions in computing. Slow is smooth, Smooth is fast.</p>
+      <ul class="network-icon" aria-hidden="true">
   
-</div>
-
-
-
-<div class="universal-wrapper">
-  
-
-  
-  
-  <div>
-    <h2><a href="/post/2019/05/the-move/">The move</a></h2>
-    <div class="article-style">
+    
+    
+    
       
-      Create a beautifully simple website in under 10 minutes.
+    
+    
+    
+    
+    
       
+    
+    <li>
+      <a href="https://twitter.com/pekiZG" target="_blank" rel="noopener">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/pekiZG" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/pekiZG" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
     </div>
   </div>
-  
+
+
+
+
+
+
+
+
 
   
+  
 
-</div>
+
+
+  </div>
+</article>
 
       
 
