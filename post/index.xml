@@ -37,6 +37,29 @@
     </item>
     
     <item>
+      <title>How to setup Ubuntu on Hyper-V machine</title>
+      <link>https://pekiZG.github.io/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</link>
+      <pubDate>Sat, 23 Apr 2016 22:33:30 +0200</pubDate>
+      <guid>https://pekiZG.github.io/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</guid>
+      <description>&lt;p&gt;First we are going to download new Ubuntu image.&lt;/p&gt;
+
+&lt;p&gt;Lets see what are recommended system requirements.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 GHz dual core processor or better&lt;/li&gt;
+&lt;li&gt;2 GB system memory&lt;/li&gt;
+&lt;li&gt;25 GB of free hard drive space&lt;/li&gt;
+&lt;li&gt;Either a DVD drive or a USB port for the installer media&lt;/li&gt;
+&lt;li&gt;Internet access is helpful&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Open a Hyper-V manager and create a new Virtual machine with above requirements.&lt;/p&gt;
+
+&lt;p&gt;Be sure to disable Secure Boot option if you choose to use 2nd generation of virtual machine.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Ditto copy/paste manager</title>
       <link>https://pekiZG.github.io/post/2016/04/ditto-copy-paste-manager/</link>
       <pubDate>Fri, 22 Apr 2016 16:02:52 +0200</pubDate>
