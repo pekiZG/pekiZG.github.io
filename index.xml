@@ -37,15 +37,30 @@
     </item>
     
     <item>
+      <title>Implemented TCP protocol into Statsd C# Client</title>
+      <link>https://pekiZG.github.io/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</link>
+      <pubDate>Tue, 26 Apr 2016 16:53:12 +0200</pubDate>
+      <guid>https://pekiZG.github.io/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</guid>
+      <description>&lt;p&gt;I have been working on TCP protocol implementation for &lt;a href=&#34;https://www.nuget.org/packages/StatsdClient/&#34; target=&#34;_blank&#34;&gt;Statsd C# Client&lt;/a&gt;.
+It’s a nice package and at the time of writing it has been downloaded 34,668 times according to Nuget gallery.&lt;/p&gt;
+
+&lt;p&gt;This nuget package is interesting because it’s working with .NET 2.0 and onwards. And at my current place of work we still use Visual Studio 2008 for one legacy project. Guess which .NET version it’s usng?
+We had problems with UDP packets being lost so I made a TCP implementation and did a Pull Request.&lt;/p&gt;
+
+&lt;p&gt;There is still one more thing I would like to do. Some kind of a load test to se how the code handles heavy load, and maybe async?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to setup InfluxDB, Chronograf and Telegraf for development</title>
       <link>https://pekiZG.github.io/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</link>
       <pubDate>Mon, 25 Apr 2016 13:29:56 +0200</pubDate>
       <guid>https://pekiZG.github.io/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</guid>
-      <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from InfluxData.&lt;/p&gt;
+      <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from &lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34;&gt;InfluxData&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To install it on Ubuntu you could use apt-get package manager, or install it via .deb package. I prefer the second method.&lt;/p&gt;
 
-&lt;p&gt;You can find install instructions on their download page.&lt;/p&gt;
+&lt;p&gt;You can find install instructions on their &lt;a href=&#34;https://influxdata.com/downloads/&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;After installation there are two config files you have to change a little to make things work.&lt;/p&gt;
 
@@ -163,7 +178,7 @@ sudo service chronograf start
       <link>https://pekiZG.github.io/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</link>
       <pubDate>Sat, 23 Apr 2016 22:33:30 +0200</pubDate>
       <guid>https://pekiZG.github.io/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</guid>
-      <description>&lt;p&gt;First we are going to download new Ubuntu image.&lt;/p&gt;
+      <description>&lt;p&gt;First we are going to download &lt;a href=&#34;https://ubuntu.com/download/desktop&#34; target=&#34;_blank&#34;&gt;new Ubuntu image&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Lets see what are recommended system requirements.&lt;/p&gt;
 

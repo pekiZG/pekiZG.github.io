@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://pekiZG.github.io/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</loc>
+    <lastmod>2016-04-26T16:53:12+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pekiZG.github.io/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</loc>
     <lastmod>2016-04-25T13:29:56+02:00</lastmod>
   </url>
