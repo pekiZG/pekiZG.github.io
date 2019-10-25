@@ -37,6 +37,128 @@
     </item>
     
     <item>
+      <title>How to setup InfluxDB, Chronograf and Telegraf for development</title>
+      <link>https://pekiZG.github.io/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</link>
+      <pubDate>Mon, 25 Apr 2016 13:29:56 +0200</pubDate>
+      <guid>https://pekiZG.github.io/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</guid>
+      <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from InfluxData.&lt;/p&gt;
+
+&lt;p&gt;To install it on Ubuntu you could use apt-get package manager, or install it via .deb package. I prefer the second method.&lt;/p&gt;
+
+&lt;p&gt;You can find install instructions on their download page.&lt;/p&gt;
+
+&lt;p&gt;After installation there are two config files you have to change a little to make things work.&lt;/p&gt;
+
+&lt;p&gt;First one is located in /opt/chronograf/ under name ‘config.toml’. Inside you have to expose Chronograf to public internet (see picture).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ChronografConfig.jpg&#34; data-caption=&#34;Chronograf config&#34;&gt;
+&lt;img src=&#34;ChronografConfig.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Chronograf config
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Second one is located in /etc/telegraf/ under name ‘telegraf.conf’. My advice would to first to comment everything you don’t need, and then uncomment stuff you need. In my case I needed Generic TCP listener (see picture).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;TelegrafConfig.jpg&#34; data-caption=&#34;Telegraf config&#34;&gt;
+&lt;img src=&#34;TelegrafConfig.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Telegraf config
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;After that all you need is to start the required daemons in usual manner.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo service influxdb start
+sudo service telegraf start
+sudo service chronograf start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Chronograf is accessible via port :10000 (&lt;a href=&#34;http://127.0.0.1:10000&#34; target=&#34;_blank&#34;&gt;http://127.0.0.1:10000&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;After opening Chronograf web interface you will have to setup InfluxDB server. Picture below should be sufficient for you to complete that task.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ChronografInfluxDBSetup.jpg&#34; data-caption=&#34;Chronograf Influx DB setup&#34;&gt;
+&lt;img src=&#34;ChronografInfluxDBSetup.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Chronograf Influx DB setup
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;You are done. Now all that is left is to start filling InfluxDB time-series DB with some data, and visualize it on Chronograf interface.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to setup Ubuntu on Hyper-V machine</title>
       <link>https://pekiZG.github.io/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</link>
       <pubDate>Sat, 23 Apr 2016 22:33:30 +0200</pubDate>
