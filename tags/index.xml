@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Personal ramblings</title>
-    <link>https://pekiZG.github.io/tags/</link>
-      <atom:link href="https://pekiZG.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://petar-slat.from.hr/tags/</link>
+      <atom:link href="https://petar-slat.from.hr/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pekiZG.github.io/img/icon-192.png</url>
+      <url>https://petar-slat.from.hr/img/icon-192.png</url>
       <title>Tags</title>
-      <link>https://pekiZG.github.io/tags/</link>
+      <link>https://petar-slat.from.hr/tags/</link>
     </image>
     
     <item>
       <title>Academic</title>
-      <link>https://pekiZG.github.io/tags/academic/</link>
+      <link>https://petar-slat.from.hr/tags/academic/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/tags/academic/</guid>
+      <guid>https://petar-slat.from.hr/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to</title>
-      <link>https://pekiZG.github.io/tags/how-to/</link>
+      <link>https://petar-slat.from.hr/tags/how-to/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/tags/how-to/</guid>
+      <guid>https://petar-slat.from.hr/tags/how-to/</guid>
       <description></description>
     </item>
     

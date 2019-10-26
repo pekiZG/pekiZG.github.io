@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Personal ramblings</title>
-    <link>https://pekiZG.github.io/post/</link>
-      <atom:link href="https://pekiZG.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://petar-slat.from.hr/post/</link>
+      <atom:link href="https://petar-slat.from.hr/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pekiZG.github.io/img/icon-192.png</url>
+      <url>https://petar-slat.from.hr/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://pekiZG.github.io/post/</link>
+      <link>https://petar-slat.from.hr/post/</link>
     </image>
     
     <item>
       <title>The move</title>
-      <link>https://pekiZG.github.io/post/2019/05/the-move/</link>
+      <link>https://petar-slat.from.hr/post/2019/05/the-move/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/post/2019/05/the-move/</guid>
+      <guid>https://petar-slat.from.hr/post/2019/05/the-move/</guid>
       <description>
 
 &lt;h1 id=&#34;hello-world-again&#34;&gt;Hello world again!&lt;/h1&gt;
@@ -38,9 +38,9 @@
     
     <item>
       <title>Implemented TCP protocol into Statsd C# Client</title>
-      <link>https://pekiZG.github.io/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</link>
+      <link>https://petar-slat.from.hr/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</link>
       <pubDate>Tue, 26 Apr 2016 16:53:12 +0200</pubDate>
-      <guid>https://pekiZG.github.io/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</guid>
+      <guid>https://petar-slat.from.hr/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</guid>
       <description>&lt;p&gt;I have been working on TCP protocol implementation for &lt;a href=&#34;https://www.nuget.org/packages/StatsdClient/&#34; target=&#34;_blank&#34;&gt;Statsd C# Client&lt;/a&gt;.
 It’s a nice package and at the time of writing it has been downloaded 34,668 times according to Nuget gallery.&lt;/p&gt;
 
@@ -53,9 +53,9 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
     
     <item>
       <title>How to setup InfluxDB, Chronograf and Telegraf for development</title>
-      <link>https://pekiZG.github.io/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</link>
+      <link>https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</link>
       <pubDate>Mon, 25 Apr 2016 13:29:56 +0200</pubDate>
-      <guid>https://pekiZG.github.io/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</guid>
+      <guid>https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</guid>
       <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from &lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34;&gt;InfluxData&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To install it on Ubuntu you could use apt-get package manager, or install it via .deb package. I prefer the second method.&lt;/p&gt;
@@ -175,9 +175,9 @@ sudo service chronograf start
     
     <item>
       <title>How to setup Ubuntu on Hyper-V machine</title>
-      <link>https://pekiZG.github.io/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</link>
+      <link>https://petar-slat.from.hr/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</link>
       <pubDate>Sat, 23 Apr 2016 22:33:30 +0200</pubDate>
-      <guid>https://pekiZG.github.io/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</guid>
+      <guid>https://petar-slat.from.hr/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</guid>
       <description>&lt;p&gt;First we are going to download &lt;a href=&#34;https://ubuntu.com/download/desktop&#34; target=&#34;_blank&#34;&gt;new Ubuntu image&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Lets see what are recommended system requirements.&lt;/p&gt;
@@ -198,9 +198,9 @@ sudo service chronograf start
     
     <item>
       <title>Ditto copy/paste manager</title>
-      <link>https://pekiZG.github.io/post/2016/04/ditto-copy-paste-manager/</link>
+      <link>https://petar-slat.from.hr/post/2016/04/ditto-copy-paste-manager/</link>
       <pubDate>Fri, 22 Apr 2016 16:02:52 +0200</pubDate>
-      <guid>https://pekiZG.github.io/post/2016/04/ditto-copy-paste-manager/</guid>
+      <guid>https://petar-slat.from.hr/post/2016/04/ditto-copy-paste-manager/</guid>
       <description>&lt;p&gt;I use this tool on a daily base. Can’t imagine how I worked without it. It’s a little tool that sits in your tray and waits on you to copy stuff. From images to text. Everything is saved and later (few clicks and copy and paste later) you can search for it and paste it again.&lt;/p&gt;
 
 
@@ -242,9 +242,9 @@ sudo service chronograf start
     
     <item>
       <title>How to Install NUnit testing Framework and Visual Studio Test Adapter</title>
-      <link>https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/</link>
+      <link>https://petar-slat.from.hr/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/</link>
       <pubDate>Tue, 19 Apr 2016 13:05:15 +0200</pubDate>
-      <guid>https://pekiZG.github.io/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/</guid>
+      <guid>https://petar-slat.from.hr/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/</guid>
       <description>&lt;p&gt;GitHub project I’m currently playing around with required NUnit testing framework.
 At first I have installed latest and the greatest version 3.2.1.
 Tried to run the tests, nothing happened.
@@ -268,9 +268,9 @@ After additional installation and setting up of test adapters for visual studio 
     
     <item>
       <title>How to enable .net 2.0 on windows 10</title>
-      <link>https://pekiZG.github.io/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</link>
+      <link>https://petar-slat.from.hr/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</guid>
+      <guid>https://petar-slat.from.hr/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</guid>
       <description>&lt;p&gt;A few day ago I ran into a interesting issue.
 I needed .net 2.0 on Windows 10 machine.&lt;/p&gt;
 

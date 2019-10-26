@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Personal ramblings</title>
-    <link>https://pekiZG.github.io/categories/</link>
-      <atom:link href="https://pekiZG.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://petar-slat.from.hr/categories/</link>
+      <atom:link href="https://petar-slat.from.hr/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pekiZG.github.io/img/icon-192.png</url>
+      <url>https://petar-slat.from.hr/img/icon-192.png</url>
       <title>Categories</title>
-      <link>https://pekiZG.github.io/categories/</link>
+      <link>https://petar-slat.from.hr/categories/</link>
     </image>
     
     <item>
       <title>Demo</title>
-      <link>https://pekiZG.github.io/categories/demo/</link>
+      <link>https://petar-slat.from.hr/categories/demo/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/categories/demo/</guid>
+      <guid>https://petar-slat.from.hr/categories/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to</title>
-      <link>https://pekiZG.github.io/categories/how-to/</link>
+      <link>https://petar-slat.from.hr/categories/how-to/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pekiZG.github.io/categories/how-to/</guid>
+      <guid>https://petar-slat.from.hr/categories/how-to/</guid>
       <description></description>
     </item>
     
