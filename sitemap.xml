@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://petar-slat.from.hr/post/2019/10/how-to-setup-hugo-and-github-pages/</loc>
+    <lastmod>2019-10-27T23:15:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://petar-slat.from.hr/</loc>
+    <lastmod>2019-10-27T23:15:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://petar-slat.from.hr/post/</loc>
+    <lastmod>2019-10-27T23:15:59+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://petar-slat.from.hr/authors/admin/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
   </url>
@@ -24,16 +39,6 @@
   
   <url>
     <loc>https://petar-slat.from.hr/categories/demo/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://petar-slat.from.hr/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://petar-slat.from.hr/post/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
   </url>
   
