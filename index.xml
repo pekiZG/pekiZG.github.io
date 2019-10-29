@@ -21,14 +21,67 @@
     </item>
     
     <item>
-      <title>Free tier SVN on dev-xp going away</title>
-      <link>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-going-away/</link>
+      <title>Free tier SVN on dev-xp is going away</title>
+      <link>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/</link>
       <pubDate>Mon, 28 Oct 2019 13:33:43 +0100</pubDate>
-      <guid>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-going-away/</guid>
-      <description>&lt;p&gt;xp-dev closing free tier account&lt;/p&gt;
+      <guid>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/</guid>
+      <description>&lt;p&gt;I recieved an email from &lt;a href=&#34;https://xp-dev.com/&#34; target=&#34;_blank&#34;&gt;https://xp-dev.com/&lt;/a&gt; that they are shutting down their free tier.
+And I tought; Is that still alive and kicking?&lt;/p&gt;
+
+&lt;p&gt;So I went through all of the ussual things you go on a site you don&amp;rsquo;t visit that often.
+Yes, I forgot my password; No, I don&amp;rsquo;t recall which e-mail I used during initial registration.&lt;/p&gt;
+
+&lt;p&gt;And so after some time, you gain access and it just kick you&amp;hellip;
+Long time ago people used SVN and it was not great, not terrible.
+This is on SVN and I need SVN client;
+I do recall using TortoiseSVN, but I&amp;rsquo;m not in a mood to install it;
+So I just looked around where can I get just the binaries.
+SlikSVN offered a solution.&lt;/p&gt;
+
+&lt;p&gt;Magic checkout command&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;PS \Apache-Subversion-1.12.2\bin&amp;gt; .\svn.exe checkout https://xp-dev.com/svn/OnlineNatjecanja backup --username [USERNAME]
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that you provide a password and viola!&lt;/p&gt;
+
+&lt;p&gt;What a trip down memory lane;&lt;/p&gt;
+
+&lt;p&gt;Is this how it looked like?
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;natjecanja-com-hr.jpg&#34; data-caption=&#34;natjecanja.com.hr&#34;&gt;
+&lt;img src=&#34;natjecanja-com-hr.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    natjecanja.com.hr
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yup, it was awesome; people registered for tae-kwon-do competitions; and everythign worked.
+There was a small backoffice where you were able manage all the details.
+After registration was closed it even generated .csv file that you imported into another application.
+It was old .new 2.0 windows form application, I wonder where is that laying around.&lt;/p&gt;
 </description>
     </item>
     
