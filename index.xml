@@ -5,12 +5,32 @@
     <link>https://petar-slat.from.hr/</link>
       <atom:link href="https://petar-slat.from.hr/index.xml" rel="self" type="application/rss+xml" />
     <description>Personal ramblings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 27 Oct 2019 23:15:59 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 29 Oct 2019 23:49:11 +0100</lastBuildDate>
     <image>
       <url>https://petar-slat.from.hr/img/icon-192.png</url>
       <title>Personal ramblings</title>
       <link>https://petar-slat.from.hr/</link>
     </image>
+    
+    <item>
+      <title>Rundeck and Ansible</title>
+      <link>https://petar-slat.from.hr/talk/rundeck-and-ansible/</link>
+      <pubDate>Tue, 29 Oct 2019 23:49:11 +0100</pubDate>
+      <guid>https://petar-slat.from.hr/talk/rundeck-and-ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free tier SVN on dev-xp going away</title>
+      <link>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-going-away/</link>
+      <pubDate>Mon, 28 Oct 2019 13:33:43 +0100</pubDate>
+      <guid>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-going-away/</guid>
+      <description>&lt;p&gt;xp-dev closing free tier account&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PS \Apache-Subversion-1.12.2\bin&amp;gt; .\svn.exe checkout https://xp-dev.com/svn/OnlineNatjecanja backup --username [USERNAME]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>How to Setup Hugo and Github Pages</title>
