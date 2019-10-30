@@ -5,7 +5,7 @@
     <link>https://petar-slat.from.hr/</link>
       <atom:link href="https://petar-slat.from.hr/index.xml" rel="self" type="application/rss+xml" />
     <description>Personal ramblings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 29 Oct 2019 23:49:11 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Dec 2019 18:00:00 +0100</lastBuildDate>
     <image>
       <url>https://petar-slat.from.hr/img/icon-192.png</url>
       <title>Personal ramblings</title>
@@ -15,9 +15,29 @@
     <item>
       <title>Rundeck and Ansible</title>
       <link>https://petar-slat.from.hr/talk/rundeck-and-ansible/</link>
-      <pubDate>Tue, 29 Oct 2019 23:49:11 +0100</pubDate>
+      <pubDate>Sun, 15 Dec 2019 18:00:00 +0100</pubDate>
       <guid>https://petar-slat.from.hr/talk/rundeck-and-ansible/</guid>
-      <description></description>
+      <description>&lt;p&gt;In this talk we demonstrated Ansible integration with Rundeck&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rundeck and Ansible</title>
+      <link>https://petar-slat.from.hr/slides/rundeck-and-ansible/</link>
+      <pubDate>Wed, 30 Oct 2019 00:57:31 +0100</pubDate>
+      <guid>https://petar-slat.from.hr/slides/rundeck-and-ansible/</guid>
+      <description>
+
+&lt;h1 id=&#34;rundeck-ansible&#34;&gt;Rundeck &amp;amp; Ansible&lt;/h1&gt;
+
+&lt;p&gt;Petar Šlat&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-is-rundeck&#34;&gt;What is rundeck?&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>

@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="In this talk we demonstrated Ansible integration with Rundeck">
 
   
   <link rel="alternate" hreflang="en-us" href="https://petar-slat.from.hr/talk/rundeck-and-ansible/">
@@ -84,11 +84,47 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/academic.min.b2daa4f6c34f6cf69c543ec97067e612.css">
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7083796-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-7083796-5', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -118,13 +154,13 @@
   <meta property="og:site_name" content="Personal ramblings">
   <meta property="og:url" content="https://petar-slat.from.hr/talk/rundeck-and-ansible/">
   <meta property="og:title" content="Rundeck and Ansible | Personal ramblings">
-  <meta property="og:description" content=""><meta property="og:image" content="https://petar-slat.from.hr/img/icon-192.png">
+  <meta property="og:description" content="In this talk we demonstrated Ansible integration with Rundeck"><meta property="og:image" content="https://petar-slat.from.hr/img/icon-192.png">
   <meta property="twitter:image" content="https://petar-slat.from.hr/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-10-29T23:49:11&#43;01:00">
     
-    <meta property="article:modified_time" content="2019-10-29T23:49:11&#43;01:00">
+    <meta property="article:modified_time" content="2019-12-15T18:00:00&#43;01:00">
   
 
   
@@ -147,10 +183,24 @@
   },
   "name": "Rundeck and Ansible",
   
+  "location": {
+    "@type": "Place",
+    "name": "HUB385 by rent24",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": ""
+    }
+    
+  },
   
-  "startDate": "2019-10-29T23:49:11+01:00",
   
-  "endDate": "2019-10-29T23:49:11+01:00",
+  "startDate": "2019-12-15T18:00:00+01:00",
+  
+  "endDate": "2019-12-15T19:00:00+01:00",
   
   
   "performer": {
@@ -158,7 +208,7 @@
     "name": "Petar Šlat"
   },
   
-  "description": ""
+  "description": "In this talk we demonstrated Ansible integration with Rundeck"
 }
 </script>
 
@@ -356,6 +406,43 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/slides/rundeck-and-ansible/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -374,7 +461,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Oct 29, 2019 11:49 PM &mdash; 11:49 PM
+            Dec 15, 2019 6:00 PM &mdash; 7:00 PM
           </div>
         </div>
       </div>
@@ -383,13 +470,53 @@
     <div class="d-md-none space-below"></div>
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://www.meetup.com/Zagreb-DevOps-Meetup/" target="_blank" rel="noopener">
+            Zagreb DevOps Meetup
+            </a>
+          </div>
+        </div> 
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">HUB385 by rent24</div>
+          
+            
+            
+            
+            
+            
+            
+            
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
 
     <div class="article-style">
-      
+      <p>In this talk we demonstrated Ansible integration with Rundeck</p>
+
     </div>
 
     

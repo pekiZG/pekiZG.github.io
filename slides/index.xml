@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides | Personal ramblings</title>
+    <link>https://petar-slat.from.hr/slides/</link>
+      <atom:link href="https://petar-slat.from.hr/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 30 Oct 2019 00:57:31 +0100</lastBuildDate>
+    <item>
+      <title>Rundeck and Ansible</title>
+      <link>https://petar-slat.from.hr/slides/rundeck-and-ansible/</link>
+      <pubDate>Wed, 30 Oct 2019 00:57:31 +0100</pubDate>
+      <guid>https://petar-slat.from.hr/slides/rundeck-and-ansible/</guid>
+      <description>
+
+&lt;h1 id=&#34;rundeck-ansible&#34;&gt;Rundeck &amp;amp; Ansible&lt;/h1&gt;
+
+&lt;p&gt;Petar Šlat&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-is-rundeck&#34;&gt;What is rundeck?&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

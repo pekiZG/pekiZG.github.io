@@ -84,11 +84,47 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/academic.min.b2daa4f6c34f6cf69c543ec97067e612.css">
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7083796-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-7083796-5', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -123,7 +159,7 @@
   <meta property="og:description" content="Personal thoughts and sandbox of..."><meta property="og:image" content="https://petar-slat.from.hr/img/icon-192.png">
   <meta property="twitter:image" content="https://petar-slat.from.hr/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-10-29T23:49:11&#43;01:00">
+    <meta property="og:updated_time" content="2019-12-15T18:00:00&#43;01:00">
   
 
   
@@ -332,8 +368,11 @@
       
       <div>
         <span>
-          Oct 29, 2019 11:49 PM &mdash; 11:49 PM
+          Dec 15, 2019 6:00 PM &mdash; 7:00 PM
         </span>
+        
+        <span class="middot-divider"></span>
+        <span>HUB385 by rent24</span>
         
       </div>
       
@@ -365,7 +404,11 @@
 
 
 
-
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/rundeck-and-ansible/" target="_blank">
+    Slides
+  </a>
+  
 
 
 

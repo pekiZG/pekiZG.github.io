@@ -84,11 +84,47 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/academic.min.b2daa4f6c34f6cf69c543ec97067e612.css">
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7083796-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-7083796-5', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -277,6 +313,8 @@
     
       <li><a href="/talk/rundeck-and-ansible/">Rundeck and Ansible</a></li>
     
+      <li><a href="/slides/rundeck-and-ansible/">Rundeck and Ansible</a></li>
+    
       <li><a href="/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/">Free tier SVN on dev-xp is going away</a></li>
     
       <li><a href="/post/2019/10/how-to-setup-hugo-and-github-pages/">How to Setup Hugo and Github Pages</a></li>
@@ -292,8 +330,6 @@
       <li><a href="/post/2016/04/ditto-copy-paste-manager/">Ditto copy/paste manager</a></li>
     
       <li><a href="/post/2016/04/how-to-install-nunit-testing-framework-and-visual-studio-test-adapter/">How to Install NUnit testing Framework and Visual Studio Test Adapter</a></li>
-    
-      <li><a href="/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/">How to enable .net 2.0 on windows 10</a></li>
     
   </ul>
   
