@@ -268,6 +268,33 @@ git commit -m &amp;quot;Initial commit&amp;quot;
     </item>
     
     <item>
+      <title>Continue Your Download When Internet Connection Breaks Down</title>
+      <link>https://petar-slat.from.hr/post/2016/08/continue-your-download-when-internet-connection-breaks-down/</link>
+      <pubDate>Sun, 08 May 2016 22:26:29 +0100</pubDate>
+      <guid>https://petar-slat.from.hr/post/2016/08/continue-your-download-when-internet-connection-breaks-down/</guid>
+      <description>&lt;p&gt;It’s been a long time since I last used a really unstable internet connection. Currently my home internet speed is quicker and more stable that the one on my current job.&lt;/p&gt;
+
+&lt;p&gt;Here is the situation that I found myself in.
+Because all the people at my job share a &lt;sup&gt;15&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt; Megabit per second up/down link the internet is really slow and breaks all the time. I won’t even go into why do I have to open up a VPN on a local network that should be trusted.
+From time to time the VPN tunnel or internet connection just dies on you. Leaving you with with a partially downloaded file. For an example Visual Studio 2015 .iso image.&lt;/p&gt;
+
+&lt;p&gt;You must be thinking? Well it’s 2016 and internet connections should be quicker and faster if you work in IT company. Well, guess what… that’s not the case here.&lt;/p&gt;
+
+&lt;p&gt;Solution is to use wget command line tool. I got mine via portable apps directory.
+&lt;a href=&#34;https://portableapps.com/apps/internet/winwget_portable&#34; target=&#34;_blank&#34;&gt;https://portableapps.com/apps/internet/winwget_portable&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once downloaded and ‘installed’ you will find the binary that you need in \WinWGetPortable\App\winwget\wget\ folder. Copy it in your download folder for quick later use. Open up command line and position yourself in the download folder. We are going to use two switches. One is -c, it tells the wget to continue from where it left (if the server permits it). Other is –limit-rate=xyz, it limits the download speed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget http://domain.com/path_to_the_file -c –limit-rate=xyz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More about the switches can be found listing the help via command line, or in online manual.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/wget/manual/wget.html&#34; target=&#34;_blank&#34;&gt;https://www.gnu.org/software/wget/manual/wget.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Implemented TCP protocol into Statsd C# Client</title>
       <link>https://petar-slat.from.hr/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</link>
       <pubDate>Tue, 26 Apr 2016 16:53:12 +0200</pubDate>
