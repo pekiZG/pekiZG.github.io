@@ -84,47 +84,11 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.b2daa4f6c34f6cf69c543ec97067e612.css">
+  <link rel="stylesheet" href="/css/academic.css">
 
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7083796-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-7083796-5', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
 
 
   
@@ -311,7 +275,9 @@
   <h2>Latest</h2>
   <ul>
     
-      <li><a href="/talk/rundeck-and-ansible/">Rundeck and Ansible</a></li>
+      <li><a href="/talk/rundeck-and-ansible/">WIP: Rundeck and Ansible</a></li>
+    
+      <li><a href="/post/2019/11/preparing-for-presentation-on-ansible/">Preparing for Presentation on Ansible</a></li>
     
       <li><a href="/slides/rundeck-and-ansible/">Rundeck and Ansible</a></li>
     
@@ -328,8 +294,6 @@
       <li><a href="/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/">How to setup InfluxDB, Chronograf and Telegraf for development</a></li>
     
       <li><a href="/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/">How to setup Ubuntu on Hyper-V machine</a></li>
-    
-      <li><a href="/post/2016/04/ditto-copy-paste-manager/">Ditto copy/paste manager</a></li>
     
   </ul>
   

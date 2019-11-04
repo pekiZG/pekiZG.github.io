@@ -84,47 +84,11 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.b2daa4f6c34f6cf69c543ec97067e612.css">
+  <link rel="stylesheet" href="/css/academic.css">
 
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7083796-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-7083796-5', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
 
 
   
@@ -414,6 +378,88 @@
 
     
 
+    
+      
+        
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 4, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/2019/11/preparing-for-presentation-on-ansible/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/post/2019/11/preparing-for-presentation-on-ansible/">Preparing for Presentation on Ansible</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p><p>Started to explore Academic talk and slides feature. Currently I just enabled it to see how it looks.
+Really like it because when reveiving the talk I always expect to find slides on presenter blog page.</p>
+
+<p>Hope to have something more this weekend.</p>
+</p>
+  </div>
+  
+
+  
+
+</div>
+
+      
     
       
         
@@ -751,6 +797,106 @@ Here is the situation that I found myself in. Because all the people at my job s
 
       
     
+
+    
+    <div class="see-all">
+      <a href="/post/">
+        See all posts
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
       
         
 
@@ -761,83 +907,88 @@ Here is the situation that I found myself in. Because all the people at my job s
 
 
 
-
+  
   
 
 
-<div class="card-simple">
 
-  
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/rundeck-and-ansible/" >WIP: Rundeck and Ansible</a>
+    </h3>
+
     
 
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Apr 26, 2016
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-  <span class="middot-divider"></span>
-  <a href="/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/#disqus_thread"></a>
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/">Implemented TCP protocol into Statsd C# Client</a>
-  </h3>
-
-  
-  <div class="article-style">
-    <p>I have been working on TCP protocol implementation for Statsd C# Client. It’s a nice package and at the time of writing it has been downloaded 34,668 times according to Nuget gallery.
-This nuget package is interesting because it’s working with .NET 2.0 and onwards. And at my current place of work we still use Visual Studio 2008 for one legacy project. Guess which .NET version it’s usng? We had problems with UDP packets being lost so I made a TCP implementation and did a Pull Request.</p>
-  </div>
-  
-
-  
-
-</div>
+    <div class="stream-meta article-metadata">
 
       
-    
+      <div>
+        <span>
+          Dec 15, 2019 6:00 PM &mdash; 7:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>HUB385 by rent24</span>
+        
+      </div>
+      
 
-    
-    <div class="see-all">
-      <a href="/post/">
-        See all posts
-        <i class="fas fa-angle-right"></i>
-      </a>
+      
     </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/rundeck-and-ansible/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
     
 
   </div>

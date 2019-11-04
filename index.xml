@@ -13,11 +13,39 @@
     </image>
     
     <item>
-      <title>Rundeck and Ansible</title>
+      <title>WIP: Rundeck and Ansible</title>
       <link>https://petar-slat.from.hr/talk/rundeck-and-ansible/</link>
       <pubDate>Sun, 15 Dec 2019 18:00:00 +0100</pubDate>
       <guid>https://petar-slat.from.hr/talk/rundeck-and-ansible/</guid>
-      <description>&lt;p&gt;In this talk we demonstrated Ansible integration with Rundeck&lt;/p&gt;
+      <description>&lt;p&gt;This is currently WIP for December 2019/ January 2020 Zagreb DevOps Meetup.&lt;/p&gt;
+
+&lt;p&gt;If I figure out that the topic does not fit in 15-20 minutes it will be broken appart&lt;/p&gt;
+
+&lt;p&gt;In this talk we will demonstrated ansible-lint, molecule and integration with Rundeck&lt;/p&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ansible-lint
+&lt;a href=&#34;https://github.com/ansible/ansible-lint&#34; target=&#34;_blank&#34;&gt;https://github.com/ansible/ansible-lint&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ansible Molecule
+&lt;a href=&#34;https://molecule.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;https://molecule.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;rundeck integration&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preparing for Presentation on Ansible</title>
+      <link>https://petar-slat.from.hr/post/2019/11/preparing-for-presentation-on-ansible/</link>
+      <pubDate>Mon, 04 Nov 2019 15:56:09 +0100</pubDate>
+      <guid>https://petar-slat.from.hr/post/2019/11/preparing-for-presentation-on-ansible/</guid>
+      <description>&lt;p&gt;Started to explore Academic talk and slides feature. Currently I just enabled it to see how it looks.
+Really like it because when reveiving the talk I always expect to find slides on presenter blog page.&lt;/p&gt;
+
+&lt;p&gt;Hope to have something more this weekend.&lt;/p&gt;
 </description>
     </item>
     
@@ -28,7 +56,7 @@
       <guid>https://petar-slat.from.hr/slides/rundeck-and-ansible/</guid>
       <description>
 
-&lt;h1 id=&#34;rundeck-ansible&#34;&gt;Rundeck &amp;amp; Ansible&lt;/h1&gt;
+&lt;h1 id=&#34;wip-rundeck-ansible&#34;&gt;WIP: Rundeck &amp;amp; Ansible&lt;/h1&gt;
 
 &lt;p&gt;Petar Šlat&lt;/p&gt;
 
@@ -36,7 +64,11 @@
 
 &lt;h2 id=&#34;what-is-rundeck&#34;&gt;What is rundeck?&lt;/h2&gt;
 
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&amp;hellip; still work in progress&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
 </description>
     </item>
     
