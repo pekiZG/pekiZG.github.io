@@ -5,58 +5,35 @@
     <link>https://petar-slat.from.hr/slides/</link>
       <atom:link href="https://petar-slat.from.hr/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 30 Oct 2019 00:57:31 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 30 Oct 2019 00:57:31 +0100</lastBuildDate>
     <item>
       <title>ansible-lint</title>
       <link>https://petar-slat.from.hr/slides/ansible-lint/</link>
       <pubDate>Wed, 30 Oct 2019 00:57:31 +0100</pubDate>
       <guid>https://petar-slat.from.hr/slides/ansible-lint/</guid>
-      <description>
-
-&lt;h1 id=&#34;wip-ansible-lint&#34;&gt;WIP: Ansible Lint&lt;/h1&gt;
-
+      <description>&lt;h1 id=&#34;wip-ansible-lint&#34;&gt;WIP: Ansible Lint&lt;/h1&gt;
 &lt;p&gt;Petar Šlat&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;what-is-ansible-lint&#34;&gt;What is ansible-lint?&lt;/h2&gt;
-
 &lt;p&gt;The project was originally started by @willthames, and has since been transferred to the Ansible project team.
-Check the guy out at &lt;a href=&#34;https://willthames.github.io/&#34; target=&#34;_blank&#34;&gt;https://willthames.github.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+Check the guy out at &lt;a href=&#34;https://willthames.github.io/&#34;&gt;https://willthames.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;how-do-we-start-using-it&#34;&gt;How do we start using it?&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code&gt;pip install ansible-lint
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;h2 id=&#34;what-can-we-lint&#34;&gt;What can we lint?&lt;/h2&gt;
-
 &lt;p&gt;Any playbook or role&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;why-do-we-need-to-do-it&#34;&gt;Why do we need to do it?&lt;/h2&gt;
-
 &lt;p&gt;Because one day in the near future we will be our own father.
 And we want to share our roles with others&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;share-our-roles&#34;&gt;Share our roles?&lt;/h2&gt;
-
 &lt;p&gt;Yes, there is scoring system for Ansible Galaxy and ansible-lint is being used there&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;ok-enough-talk-lets-see-an-example&#34;&gt;Ok, enough talk; lets see an example&lt;/h2&gt;
-
-&lt;p&gt;TODO: &lt;a href=&#34;https://asciinema.org/&#34; target=&#34;_blank&#34;&gt;https://asciinema.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
+&lt;p&gt;TODO: &lt;a href=&#34;https://asciinema.org/&#34;&gt;https://asciinema.org/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 </description>
     </item>
     

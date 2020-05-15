@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Petar Šlat">
+  
 
   
   
@@ -33,10 +32,9 @@ If I figure out that the topic does not fit in 15-20 minutes it will be broken a
 In this talk we will demonstrated ansible-lint, molecule and integration with Rundeck
 And, in the end I have decided to make it multi part (15-20 minutes)
 TODO:
- ansible-lint https://github.com/ansible/ansible-lint
- Ansible Molecule https://molecule.readthedocs.io/en/stable/
- rundeck integration
-  ">
+  ansible-lint https://github.com/ansible/ansible-lint
+  Ansible Molecule https://molecule.readthedocs.io/en/stable/
+  rundeck integration">
 
   
   <link rel="alternate" hreflang="en-us" href="https://petar-slat.from.hr/talk/ansible-part-one/">
@@ -52,11 +50,14 @@ TODO:
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -68,8 +69,8 @@ TODO:
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -78,6 +79,118 @@ TODO:
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -92,24 +205,68 @@ TODO:
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/academic.min.d5d3764064ede10950109a3735e1eb56.css">
 
   
 
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7083796-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-7083796-5', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
+
+  
+  
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://petar-slat.from.hr/talk/ansible-part-one/">
 
+  
+  
+  
   
   
   
@@ -131,11 +288,10 @@ If I figure out that the topic does not fit in 15-20 minutes it will be broken a
 In this talk we will demonstrated ansible-lint, molecule and integration with Rundeck
 And, in the end I have decided to make it multi part (15-20 minutes)
 TODO:
- ansible-lint https://github.com/ansible/ansible-lint
- Ansible Molecule https://molecule.readthedocs.io/en/stable/
- rundeck integration
-  "><meta property="og:image" content="https://petar-slat.from.hr/img/icon-192.png">
-  <meta property="twitter:image" content="https://petar-slat.from.hr/img/icon-192.png"><meta property="og:locale" content="en-us">
+  ansible-lint https://github.com/ansible/ansible-lint
+  Ansible Molecule https://molecule.readthedocs.io/en/stable/
+  rundeck integration"><meta property="og:image" content="https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-11-03T23:49:11&#43;01:00">
@@ -183,12 +339,7 @@ TODO:
   "endDate": "2019-12-15T19:00:00+01:00",
   
   
-  "performer": {
-    "@type": "Person",
-    "name": "Petar Šlat"
-  },
-  
-  "description": "This is currently WIP for December 2019/ January 2020 Zagreb DevOps Meetup.\nIf I figure out that the topic does not fit in 15-20 minutes it will be broken appart\nIn this talk we will demonstrated ansible-lint, molecule and integration with Rundeck\nAnd, in the end I have decided to make it multi part (15-20 minutes)\nTODO:\n ansible-lint https://github.com/ansible/ansible-lint\n Ansible Molecule https://molecule.readthedocs.io/en/stable/\n rundeck integration\n  "
+  "description": "This is currently WIP for December 2019/ January 2020 Zagreb DevOps Meetup.\nIf I figure out that the topic does not fit in 15-20 minutes it will be broken appart\nIn this talk we will demonstrated ansible-lint, molecule and integration with Rundeck\nAnd, in the end I have decided to make it multi part (15-20 minutes)\nTODO:\n  ansible-lint https://github.com/ansible/ansible-lint\n  Ansible Molecule https://molecule.readthedocs.io/en/stable/\n  rundeck integration"
 }
 </script>
 
@@ -243,24 +394,41 @@ TODO:
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Personal ramblings</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Personal ramblings</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -293,29 +461,41 @@ TODO:
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -460,7 +640,7 @@ TODO:
             Zagreb DevOps Meetup
             </a>
           </div>
-        </div> 
+        </div>
       </div>
       <div class="col-md-1"></div>
     </div>
@@ -475,13 +655,6 @@ TODO:
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
           <div class="col-12 col-md-9">HUB385 by rent24</div>
           
-            
-            
-            
-            
-            
-            
-            
             <div class="col-md-3"></div>
             <div class="col-12 col-md-9"></div>
           
@@ -496,23 +669,22 @@ TODO:
 
     <div class="article-style">
       <p>This is currently WIP for December 2019/ January 2020 Zagreb DevOps Meetup.</p>
-
 <p>If I figure out that the topic does not fit in 15-20 minutes it will be broken appart</p>
-
 <p>In this talk we will demonstrated ansible-lint, molecule and integration with Rundeck</p>
-
 <p>And, in the end I have decided to make it multi part (15-20 minutes)</p>
-
 <p>TODO:</p>
-
 <ul>
-<li><p>ansible-lint
-<a href="https://github.com/ansible/ansible-lint" target="_blank">https://github.com/ansible/ansible-lint</a></p></li>
-
-<li><p>Ansible Molecule
-<a href="https://molecule.readthedocs.io/en/stable/" target="_blank">https://molecule.readthedocs.io/en/stable/</a></p></li>
-
-<li><p>rundeck integration</p></li>
+<li>
+<p>ansible-lint
+<a href="https://github.com/ansible/ansible-lint">https://github.com/ansible/ansible-lint</a></p>
+</li>
+<li>
+<p>Ansible Molecule
+<a href="https://molecule.readthedocs.io/en/stable/">https://molecule.readthedocs.io/en/stable/</a></p>
+</li>
+<li>
+<p>rundeck integration</p>
+</li>
 </ul>
 
     </div>
@@ -621,28 +793,28 @@ TODO:
 
 
   
-
-
-
-
-
-
   
-  
+
+
+
+
+
   
     
-  
-  
-  <div class="media author-card content-widget-hr">
     
-      <img class="portrait mr-3" src="https://s.gravatar.com/avatar/1b5216963df07edaf7532f97374461e4?s=200')" alt="Avatar">
     
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://petar-slat.from.hr">Petar Šlat</a></h5>
-      <h6 class="card-subtitle">Software engineer / SRE / DevOps</h6>
-      <p class="card-text">My current interests are in automation and optimiztions in computing. Slow is smooth, Smooth is fast.</p>
-      <ul class="network-icon" aria-hidden="true">
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://petar-slat.from.hr"></a></h5>
+        <h6 class="card-subtitle">Software engineer / SRE / DevOps</h6>
+        <p class="card-text">My current interests are in automation and optimiztions in computing. Slow is smooth, Smooth is fast.</p>
+        <ul class="network-icon" aria-hidden="true">
   
     
     
@@ -697,8 +869,12 @@ TODO:
   
 </ul>
 
+      </div>
     </div>
-  </div>
+  
+
+
+
 
 
 
@@ -748,9 +924,6 @@ TODO:
 
     
     
-
-    
-    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -761,14 +934,12 @@ TODO:
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -778,7 +949,12 @@ TODO:
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -828,6 +1004,9 @@ TODO:
 
     
     
+
+    
+    
     <script id="dsq-count-scr" src="https://pekizg.disqus.com/count.js" async></script>
     
 
@@ -845,7 +1024,7 @@ TODO:
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -861,8 +1040,18 @@ TODO:
   
 
   <p class="powered-by">
-    &copy; 2019 &middot; 
+    © 2020
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.

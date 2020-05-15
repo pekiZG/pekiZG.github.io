@@ -5,9 +5,9 @@
     <link>https://petar-slat.from.hr/talk/</link>
       <atom:link href="https://petar-slat.from.hr/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Dec 2019 18:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 18:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://petar-slat.from.hr/img/icon-192.png</url>
+      <url>https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://petar-slat.from.hr/talk/</link>
     </image>
@@ -18,23 +18,22 @@
       <pubDate>Sun, 15 Dec 2019 18:00:00 +0100</pubDate>
       <guid>https://petar-slat.from.hr/talk/ansible-part-one/</guid>
       <description>&lt;p&gt;This is currently WIP for December 2019/ January 2020 Zagreb DevOps Meetup.&lt;/p&gt;
-
 &lt;p&gt;If I figure out that the topic does not fit in 15-20 minutes it will be broken appart&lt;/p&gt;
-
 &lt;p&gt;In this talk we will demonstrated ansible-lint, molecule and integration with Rundeck&lt;/p&gt;
-
 &lt;p&gt;And, in the end I have decided to make it multi part (15-20 minutes)&lt;/p&gt;
-
 &lt;p&gt;TODO:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ansible-lint
-&lt;a href=&#34;https://github.com/ansible/ansible-lint&#34; target=&#34;_blank&#34;&gt;https://github.com/ansible/ansible-lint&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Ansible Molecule
-&lt;a href=&#34;https://molecule.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;https://molecule.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;rundeck integration&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ansible-lint
+&lt;a href=&#34;https://github.com/ansible/ansible-lint&#34;&gt;https://github.com/ansible/ansible-lint&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ansible Molecule
+&lt;a href=&#34;https://molecule.readthedocs.io/en/stable/&#34;&gt;https://molecule.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;rundeck integration&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

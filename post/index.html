@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Petar Šlat">
+  
 
   
   
@@ -44,11 +43,14 @@
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -70,6 +72,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -84,26 +198,70 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/academic.min.d5d3764064ede10950109a3735e1eb56.css">
 
   
 
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7083796-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-7083796-5', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
+
+  
+  
 
   
   <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Personal ramblings">
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://petar-slat.from.hr/post/">
 
+  
+  
+  
   
   
   
@@ -120,8 +278,8 @@
   <meta property="og:site_name" content="Personal ramblings">
   <meta property="og:url" content="https://petar-slat.from.hr/post/">
   <meta property="og:title" content="Posts | Personal ramblings">
-  <meta property="og:description" content="Personal thoughts and sandbox of..."><meta property="og:image" content="https://petar-slat.from.hr/img/icon-192.png">
-  <meta property="twitter:image" content="https://petar-slat.from.hr/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Personal thoughts and sandbox of..."><meta property="og:image" content="https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2019-11-04T15:56:09&#43;01:00">
   
@@ -179,24 +337,41 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Personal ramblings</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Personal ramblings</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -229,29 +404,41 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -306,6 +493,8 @@
 
 
 
+  
+
 
 <div class="media stream-item">
   <div class="media-body">
@@ -314,6 +503,11 @@
       <a href="/post/2019/11/preparing-for-presentation-on-ansible/" >Preparing for Presentation on Ansible</a>
     </h3>
 
+    
+    <div class="article-style">
+      Started to explore Academic talk and slides feature. Currently I just enabled it to see how it looks. Really like it because when reveiving the talk I always expect to find slides on presenter blog page.
+Hope to have something more this weekend.
+    </div>
     
 
     <div class="stream-meta article-metadata">
@@ -400,7 +594,9 @@
 
     
     <div class="article-style">
-      I recieved an email from https://xp-dev.com/ that they are shutting down their free tier. And I tought; Is that still alive and …
+      I recieved an email from https://xp-dev.com/ that they are shutting down their free tier. And I tought; Is that still alive and kicking?
+So I went through all of the ussual things you go on a site you don&rsquo;t visit that often. Yes, I forgot my password; No, I don&rsquo;t recall which e-mail I used during initial registration.
+And so after some time, you gain access and it just kick you&hellip; Long time ago people used SVN and it was not great, not terrible.
     </div>
     
 
@@ -489,7 +685,10 @@
     
     <div class="article-style">
       As I have promised in a tweet to Edgar here is short explanation on how to setup Hugo and Academic theme.
-You will have it by the end …
+You will have it by the end of the weekend
+&mdash; Petar Šlat (@pekiZG) October 24, 2019  Below you can find TLDR; descriptions.
+Download and install GIT For windows you can get it from here: https://git-scm.com/
+After a few next, next clicks you will have Git installed. Congratz!
     </div>
     
 
@@ -598,11 +797,8 @@ You will have it by the end …
   <div>
     
 
-
-
   
-  <span><a href="/authors/admin/">Petar Šlat</a></span>
-
+  <span><a href="/authors/admin/">admin</a></span>
   </div>
   
   
@@ -682,7 +878,8 @@ You will have it by the end …
 
     
     <div class="article-style">
-      It’s been a long time since I last used a really unstable internet connection. Currently my home internet speed is quicker and more …
+      It’s been a long time since I last used a really unstable internet connection. Currently my home internet speed is quicker and more stable that the one on my current job.
+Here is the situation that I found myself in. Because all the people at my job share a 15/15 Megabit per second up/down link the internet is really slow and breaks all the time. I won’t even go into why do I have to open up a VPN on a local network that should be trusted.
     </div>
     
 
@@ -772,7 +969,8 @@ You will have it by the end …
 
     
     <div class="article-style">
-      I have been working on TCP protocol implementation for Statsd C# Client. It’s a nice package and at the time of writing it has been …
+      I have been working on TCP protocol implementation for Statsd C# Client. It’s a nice package and at the time of writing it has been downloaded 34,668 times according to Nuget gallery.
+This nuget package is interesting because it’s working with .NET 2.0 and onwards. And at my current place of work we still use Visual Studio 2008 for one legacy project. Guess which .NET version it’s usng? We had problems with UDP packets being lost so I made a TCP implementation and did a Pull Request.
     </div>
     
 
@@ -861,7 +1059,10 @@ You will have it by the end …
     
     <div class="article-style">
       InfluxDB, Chronograf and Telegraf are part of TICK stack from InfluxData.
-To install it on Ubuntu you could use apt-get package …
+To install it on Ubuntu you could use apt-get package manager, or install it via .deb package. I prefer the second method.
+You can find install instructions on their download page.
+After installation there are two config files you have to change a little to make things work.
+First one is located in /opt/chronograf/ under name ‘config.toml’. Inside you have to expose Chronograf to public internet (see picture).
     </div>
     
 
@@ -951,7 +1152,8 @@ To install it on Ubuntu you could use apt-get package …
     <div class="article-style">
       First we are going to download new Ubuntu image.
 Lets see what are recommended system requirements.
- 2 GHz dual core processor or …
+ 2 GHz dual core processor or better 2 GB system memory 25 GB of free hard drive space Either a DVD drive or a USB port for the installer media Internet access is helpful  Open a Hyper-V manager and create a new Virtual machine with above requirements.
+Be sure to disable Secure Boot option if you choose to use 2nd generation of virtual machine.
     </div>
     
 
@@ -1039,7 +1241,8 @@ Lets see what are recommended system requirements.
 
     
     <div class="article-style">
-      I use this tool on a daily base. Can’t imagine how I worked without it. It’s a little tool that sits in your tray and waits on you to …
+      I use this tool on a daily base. Can’t imagine how I worked without it. It’s a little tool that sits in your tray and waits on you to copy stuff. From images to text. Everything is saved and later (few clicks and copy and paste later) you can search for it and paste it again.
+DittoI think it’s a kind of tool that boosts your productivity.
     </div>
     
 
@@ -1127,7 +1330,7 @@ Lets see what are recommended system requirements.
 
     
     <div class="article-style">
-      GitHub project I’m currently playing around with required NUnit testing framework. At first I have installed latest and the greatest …
+      GitHub project I’m currently playing around with required NUnit testing framework. At first I have installed latest and the greatest version 3.2.1. Tried to run the tests, nothing happened. Hmmmm, what was I missing? I’m always missing something. After poking around the project I soon realized 3.2.1 was not the right version. Written tests were not running because they were written for version 2.6.4. After additional installation and setting up of test adapters for visual studio everything worked.
     </div>
     
 
@@ -1208,9 +1411,6 @@ Lets see what are recommended system requirements.
 
     
     
-
-    
-    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -1221,14 +1421,12 @@ Lets see what are recommended system requirements.
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -1238,7 +1436,12 @@ Lets see what are recommended system requirements.
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -1288,6 +1491,9 @@ Lets see what are recommended system requirements.
 
     
     
+
+    
+    
     <script id="dsq-count-scr" src="https://pekizg.disqus.com/count.js" async></script>
     
 
@@ -1305,7 +1511,7 @@ Lets see what are recommended system requirements.
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -1321,8 +1527,18 @@ Lets see what are recommended system requirements.
   
 
   <p class="powered-by">
-    &copy; 2019 &middot; 
+    © 2020
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.

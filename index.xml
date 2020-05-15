@@ -5,9 +5,9 @@
     <link>https://petar-slat.from.hr/</link>
       <atom:link href="https://petar-slat.from.hr/index.xml" rel="self" type="application/rss+xml" />
     <description>Personal ramblings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Dec 2019 18:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 18:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://petar-slat.from.hr/img/icon-192.png</url>
+      <url>https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Personal ramblings</title>
       <link>https://petar-slat.from.hr/</link>
     </image>
@@ -18,23 +18,22 @@
       <pubDate>Sun, 15 Dec 2019 18:00:00 +0100</pubDate>
       <guid>https://petar-slat.from.hr/talk/ansible-part-one/</guid>
       <description>&lt;p&gt;This is currently WIP for December 2019/ January 2020 Zagreb DevOps Meetup.&lt;/p&gt;
-
 &lt;p&gt;If I figure out that the topic does not fit in 15-20 minutes it will be broken appart&lt;/p&gt;
-
 &lt;p&gt;In this talk we will demonstrated ansible-lint, molecule and integration with Rundeck&lt;/p&gt;
-
 &lt;p&gt;And, in the end I have decided to make it multi part (15-20 minutes)&lt;/p&gt;
-
 &lt;p&gt;TODO:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ansible-lint
-&lt;a href=&#34;https://github.com/ansible/ansible-lint&#34; target=&#34;_blank&#34;&gt;https://github.com/ansible/ansible-lint&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Ansible Molecule
-&lt;a href=&#34;https://molecule.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;https://molecule.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;rundeck integration&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ansible-lint
+&lt;a href=&#34;https://github.com/ansible/ansible-lint&#34;&gt;https://github.com/ansible/ansible-lint&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ansible Molecule
+&lt;a href=&#34;https://molecule.readthedocs.io/en/stable/&#34;&gt;https://molecule.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;rundeck integration&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -46,7 +45,6 @@
       <guid>https://petar-slat.from.hr/post/2019/11/preparing-for-presentation-on-ansible/</guid>
       <description>&lt;p&gt;Started to explore Academic talk and slides feature. Currently I just enabled it to see how it looks.
 Really like it because when reveiving the talk I always expect to find slides on presenter blog page.&lt;/p&gt;
-
 &lt;p&gt;Hope to have something more this weekend.&lt;/p&gt;
 </description>
     </item>
@@ -56,52 +54,29 @@ Really like it because when reveiving the talk I always expect to find slides on
       <link>https://petar-slat.from.hr/slides/ansible-lint/</link>
       <pubDate>Wed, 30 Oct 2019 00:57:31 +0100</pubDate>
       <guid>https://petar-slat.from.hr/slides/ansible-lint/</guid>
-      <description>
-
-&lt;h1 id=&#34;wip-ansible-lint&#34;&gt;WIP: Ansible Lint&lt;/h1&gt;
-
+      <description>&lt;h1 id=&#34;wip-ansible-lint&#34;&gt;WIP: Ansible Lint&lt;/h1&gt;
 &lt;p&gt;Petar Šlat&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;what-is-ansible-lint&#34;&gt;What is ansible-lint?&lt;/h2&gt;
-
 &lt;p&gt;The project was originally started by @willthames, and has since been transferred to the Ansible project team.
-Check the guy out at &lt;a href=&#34;https://willthames.github.io/&#34; target=&#34;_blank&#34;&gt;https://willthames.github.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+Check the guy out at &lt;a href=&#34;https://willthames.github.io/&#34;&gt;https://willthames.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;how-do-we-start-using-it&#34;&gt;How do we start using it?&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code&gt;pip install ansible-lint
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;h2 id=&#34;what-can-we-lint&#34;&gt;What can we lint?&lt;/h2&gt;
-
 &lt;p&gt;Any playbook or role&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;why-do-we-need-to-do-it&#34;&gt;Why do we need to do it?&lt;/h2&gt;
-
 &lt;p&gt;Because one day in the near future we will be our own father.
 And we want to share our roles with others&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;share-our-roles&#34;&gt;Share our roles?&lt;/h2&gt;
-
 &lt;p&gt;Yes, there is scoring system for Ansible Galaxy and ansible-lint is being used there&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;ok-enough-talk-lets-see-an-example&#34;&gt;Ok, enough talk; lets see an example&lt;/h2&gt;
-
-&lt;p&gt;TODO: &lt;a href=&#34;https://asciinema.org/&#34; target=&#34;_blank&#34;&gt;https://asciinema.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
+&lt;p&gt;TODO: &lt;a href=&#34;https://asciinema.org/&#34;&gt;https://asciinema.org/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 </description>
     </item>
     
@@ -110,34 +85,28 @@ And we want to share our roles with others&lt;/p&gt;
       <link>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/</link>
       <pubDate>Mon, 28 Oct 2019 13:33:43 +0100</pubDate>
       <guid>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/</guid>
-      <description>&lt;p&gt;I recieved an email from &lt;a href=&#34;https://xp-dev.com/&#34; target=&#34;_blank&#34;&gt;https://xp-dev.com/&lt;/a&gt; that they are shutting down their free tier.
+      <description>&lt;p&gt;I recieved an email from &lt;a href=&#34;https://xp-dev.com/&#34;&gt;https://xp-dev.com/&lt;/a&gt; that they are shutting down their free tier.
 And I tought; Is that still alive and kicking?&lt;/p&gt;
-
 &lt;p&gt;So I went through all of the ussual things you go on a site you don&amp;rsquo;t visit that often.
 Yes, I forgot my password; No, I don&amp;rsquo;t recall which e-mail I used during initial registration.&lt;/p&gt;
-
 &lt;p&gt;And so after some time, you gain access and it just kick you&amp;hellip;
 Long time ago people used SVN and it was not great, not terrible.
 This is on SVN and I need SVN client;
 I do recall using TortoiseSVN, but I&amp;rsquo;m not in a mood to install it;
 So I just looked around where can I get just the binaries.
 SlikSVN offered a solution.&lt;/p&gt;
-
 &lt;p&gt;Magic checkout command&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;PS \Apache-Subversion-1.12.2\bin&amp;gt; .\svn.exe checkout https://xp-dev.com/svn/OnlineNatjecanja backup --username [USERNAME]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After that you provide a password and viola!&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After that you provide a password and viola!&lt;/p&gt;
 &lt;p&gt;What a trip down memory lane;&lt;/p&gt;
-
 &lt;p&gt;Is this how it looked like?
 
 
 
 
 
+  
+  
 
 
 
@@ -146,11 +115,17 @@ SlikSVN offered a solution.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;natjecanja-com-hr.jpg&#34; data-caption=&#34;natjecanja.com.hr&#34;&gt;
-&lt;img src=&#34;natjecanja-com-hr.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+&lt;figure id=&#34;figure-natjecanjacomhr&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;natjecanja.com.hr&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1750&#34; height=&#34;544&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -162,7 +137,6 @@ SlikSVN offered a solution.&lt;/p&gt;
 
 &lt;/figure&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Yup, it was awesome; people registered for tae-kwon-do competitions; and everythign worked.
 There was a small backoffice where you were able manage all the details.
 After registration was closed it even generated .csv file that you imported into another application.
@@ -175,137 +149,79 @@ It was old .new 2.0 windows form application, I wonder where is that laying arou
       <link>https://petar-slat.from.hr/post/2019/10/how-to-setup-hugo-and-github-pages/</link>
       <pubDate>Sun, 27 Oct 2019 23:15:59 +0200</pubDate>
       <guid>https://petar-slat.from.hr/post/2019/10/how-to-setup-hugo-and-github-pages/</guid>
-      <description>
-
-&lt;p&gt;As I have promised in a tweet to Edgar here is short explanation on how to setup Hugo and Academic theme.&lt;/p&gt;
-
+      <description>&lt;p&gt;As I have promised in a tweet to Edgar here is short explanation on how to setup Hugo and Academic theme.&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You will have it by the end of the weekend&lt;/p&gt;&amp;mdash; Petar Šlat (@pekiZG) &lt;a href=&#34;https://twitter.com/pekiZG/status/1187407069017718785?ref_src=twsrc%5Etfw&#34;&gt;October 24, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-
-&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;/p&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Below you can find TLDR; descriptions.&lt;/p&gt;
-
 &lt;h2 id=&#34;download-and-install-git&#34;&gt;Download and install GIT&lt;/h2&gt;
-
 &lt;p&gt;For windows you can get it from here:
-&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;https://git-scm.com/&lt;/a&gt;&lt;/p&gt;
-
+&lt;a href=&#34;https://git-scm.com/&#34;&gt;https://git-scm.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;After a few next, next clicks you will have Git installed.
 Congratz!&lt;/p&gt;
-
 &lt;h2 id=&#34;download-and-setup-hugo-binary-extended&#34;&gt;Download and setup hugo binary (extended)&lt;/h2&gt;
-
 &lt;p&gt;For those interested in docs you can find them here:
-&lt;a href=&#34;https://gohugo.io/getting-started/installing#windows&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/getting-started/installing#windows&lt;/a&gt;&lt;/p&gt;
-
+&lt;a href=&#34;https://gohugo.io/getting-started/installing#windows&#34;&gt;https://gohugo.io/getting-started/installing#windows&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Or visit this link for the latest release
-&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;&lt;/p&gt;
-
+&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;search for (ctrl+f):&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;hugo_extended_[SEM_VERSION]_Windows-64bit.zip
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Download it and extract it where you want.&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Download it and extract it where you want.&lt;/p&gt;
 &lt;p&gt;Set PATH Enviroment Variable to point to the extracted binary.&lt;/p&gt;
-
 &lt;p&gt;To test it you can ask for a hugo version. Open CLI (Powershell or CMD) and type &amp;ldquo;hugo version&amp;rdquo;.
 You will get output like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;PS D:\Hugo\bin&amp;gt; hugo version
-Hugo Static Site Generator v0.59.0/extended windows/amd64 BuildDate: unknown
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h2&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;PS D:\Hugo\bin&amp;gt; hugo version
+Hugo Static Site Generator v0.59.0/extended windows/amd64 BuildDate&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; unknown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h2&gt;
 &lt;p&gt;Execute this in CLI where [my_site_name] is arbitrary name (in our example &amp;ldquo;demo-site&amp;rdquo;)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;PS D:\Hugo\Sites&amp;gt; hugo new site &lt;span style=&#34;color:#66d9ef&#34;&gt;[my_site_name]&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;PS D:\Hugo\Sites&amp;gt; hugo new site [my_site_name]
+Congratulations! Your new Hugo site is created &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt; D:\Hugo\Sites\demo-site.
 
-Congratulations! Your new Hugo site is created in D:\Hugo\Sites\demo-site.
-
-Just a few more steps and you are ready to go:
+Just a few more steps and you are ready to go&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;
 
 1. Download a theme into the same-named folder.
-   Choose a theme from https://themes.gohugo.io/ or
-   create your own with the &amp;quot;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;quot; command.
+   Choose a theme from https&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;//themes.gohugo.io/ or
+   create your own with the &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;#34;&lt;/span&gt; command.
 2. Perhaps you want to add some content. You can add single files
-   with &amp;quot;hugo new &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;quot;.
-3. Start the built-in live server via &amp;quot;hugo server&amp;quot;.
+   with &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo new &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;#34;&lt;/span&gt;.
+3. Start the built-in live server via &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo server&amp;#34;&lt;/span&gt;.
 
-Visit https://gohugo.io/ for quickstart guide and full documentation.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After that you will get a folder with everythign ready to start.&lt;/p&gt;
-
+Visit https&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;//gohugo.io/ &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; quickstart guide and full documentation.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that you will get a folder with everythign ready to start.&lt;/p&gt;
 &lt;h2 id=&#34;add-gitignore-file-to-your-new-hugo-site&#34;&gt;Add .gitignore file to your new hugo site&lt;/h2&gt;
-
 &lt;p&gt;add .gitignore content from
-&lt;a href=&#34;https://www.gitignore.io/api/hugo&#34; target=&#34;_blank&#34;&gt;https://www.gitignore.io/api/hugo&lt;/a&gt;&lt;/p&gt;
-
+&lt;a href=&#34;https://www.gitignore.io/api/hugo&#34;&gt;https://www.gitignore.io/api/hugo&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;git-time&#34;&gt;GIT time&lt;/h2&gt;
-
 &lt;p&gt;For next steps you will need to create two repositories under you github account.
 One will hold markdown content (.md files) and it will be a private repo.
 And other one will hold generated static site that resides in /public folder and it will be public repo.&lt;/p&gt;
-
 &lt;h3 id=&#34;init-a-repo-for-hugo-repo-for-markdown&#34;&gt;Init a repo for hugo (repo for markdown)&lt;/h3&gt;
-
 &lt;pre&gt;&lt;code&gt;git init
 git add .
 git commit -m &amp;quot;Initial commit&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Find the URL of the repository the will hold markdown content files and add it to newly created git repo.&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Find the URL of the repository the will hold markdown content files and add it to newly created git repo.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git remote add origin [markdown-content-repo-URL]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;add-submodule-for-public-folder&#34;&gt;add submodule for public folder&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;git submodule add -b master git@github.com:&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;add-academic-theme-as-git-submodule&#34;&gt;Add Academic theme as git submodule&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;add-submodule-for-public-folder&#34;&gt;add submodule for public folder&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;git submodule add -b master git@github.com&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;add-academic-theme-as-git-submodule&#34;&gt;Add Academic theme as git submodule&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;git submodule add https://github.com/gcushen/hugo-academic.git themes/hugo-academic
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;copy-example-demo-site&#34;&gt;Copy example demo site&lt;/h2&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;copy-example-demo-site&#34;&gt;Copy example demo site&lt;/h2&gt;
 &lt;p&gt;You can find it here:
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&lt;/a&gt;&lt;/p&gt;
-
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Just copy the content to your demo-site and run a local site via hugo command (See below).&lt;/p&gt;
-
 &lt;h2 id=&#34;cli-usage&#34;&gt;CLI usage&lt;/h2&gt;
-
 &lt;p&gt;To get you started faster hare are some usefull commands.&lt;/p&gt;
-
 &lt;h3 id=&#34;example-of-command-to-create-new-post&#34;&gt;example of command to create new post&lt;/h3&gt;
-
 &lt;pre&gt;&lt;code&gt;hugo new post/2019/10/how-to-setup-hugo-and-github-pages
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;run-local-site&#34;&gt;run local site&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;run-local-site&#34;&gt;run local site&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;hugo server -D
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;generate-site-in-public&#34;&gt;generate site in /public&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;generate-site-in-public&#34;&gt;generate site in /public&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;hugo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;update-of-submodules&#34;&gt;update of submodules&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;update-of-submodules&#34;&gt;update of submodules&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;git submodule foreach git pull origin master
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -313,21 +229,14 @@ git commit -m &amp;quot;Initial commit&amp;quot;
       <link>https://petar-slat.from.hr/post/2019/05/the-move/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       <guid>https://petar-slat.from.hr/post/2019/05/the-move/</guid>
-      <description>
-
-&lt;h1 id=&#34;hello-world-again&#34;&gt;Hello world again!&lt;/h1&gt;
-
+      <description>&lt;h1 id=&#34;hello-world-again&#34;&gt;Hello world again!&lt;/h1&gt;
 &lt;p&gt;So I forgot to extend my personal domain and decided to move to github for my personal blog.&lt;/p&gt;
-
 &lt;p&gt;My current todo list:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Move old posts (still not sure how)&lt;/li&gt;
 &lt;li&gt;Find better hugo theme&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Update:&lt;/p&gt;
-
 &lt;p&gt;I won&amp;rsquo;t be moving anything, things can always be found on the wayback machine;&lt;/p&gt;
 </description>
     </item>
@@ -338,24 +247,16 @@ git commit -m &amp;quot;Initial commit&amp;quot;
       <pubDate>Sun, 08 May 2016 22:26:29 +0100</pubDate>
       <guid>https://petar-slat.from.hr/post/2016/08/continue-your-download-when-internet-connection-breaks-down/</guid>
       <description>&lt;p&gt;It’s been a long time since I last used a really unstable internet connection. Currently my home internet speed is quicker and more stable that the one on my current job.&lt;/p&gt;
-
 &lt;p&gt;Here is the situation that I found myself in.
-Because all the people at my job share a &lt;sup&gt;15&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt; Megabit per second up/down link the internet is really slow and breaks all the time. I won’t even go into why do I have to open up a VPN on a local network that should be trusted.
+Because all the people at my job share a 15/15 Megabit per second up/down link the internet is really slow and breaks all the time. I won’t even go into why do I have to open up a VPN on a local network that should be trusted.
 From time to time the VPN tunnel or internet connection just dies on you. Leaving you with with a partially downloaded file. For an example Visual Studio 2015 .iso image.&lt;/p&gt;
-
 &lt;p&gt;You must be thinking? Well it’s 2016 and internet connections should be quicker and faster if you work in IT company. Well, guess what… that’s not the case here.&lt;/p&gt;
-
 &lt;p&gt;Solution is to use wget command line tool. I got mine via portable apps directory.
-&lt;a href=&#34;https://portableapps.com/apps/internet/winwget_portable&#34; target=&#34;_blank&#34;&gt;https://portableapps.com/apps/internet/winwget_portable&lt;/a&gt;&lt;/p&gt;
-
+&lt;a href=&#34;https://portableapps.com/apps/internet/winwget_portable&#34;&gt;https://portableapps.com/apps/internet/winwget_portable&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Once downloaded and ‘installed’ you will find the binary that you need in \WinWGetPortable\App\winwget\wget\ folder. Copy it in your download folder for quick later use. Open up command line and position yourself in the download folder. We are going to use two switches. One is -c, it tells the wget to continue from where it left (if the server permits it). Other is –limit-rate=xyz, it limits the download speed.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;wget http://domain.com/path_to_the_file -c –limit-rate=xyz
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;More about the switches can be found listing the help via command line, or in online manual.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/wget/manual/wget.html&#34; target=&#34;_blank&#34;&gt;https://www.gnu.org/software/wget/manual/wget.html&lt;/a&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;More about the switches can be found listing the help via command line, or in online manual.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/wget/manual/wget.html&#34;&gt;https://www.gnu.org/software/wget/manual/wget.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -364,12 +265,11 @@ From time to time the VPN tunnel or internet connection just dies on you. Leavin
       <link>https://petar-slat.from.hr/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</link>
       <pubDate>Tue, 26 Apr 2016 16:53:12 +0200</pubDate>
       <guid>https://petar-slat.from.hr/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</guid>
-      <description>&lt;p&gt;I have been working on TCP protocol implementation for &lt;a href=&#34;https://www.nuget.org/packages/StatsdClient/&#34; target=&#34;_blank&#34;&gt;Statsd C# Client&lt;/a&gt;.
+      <description>&lt;p&gt;I have been working on TCP protocol implementation for 
+&lt;a href=&#34;https://www.nuget.org/packages/StatsdClient/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statsd C# Client&lt;/a&gt;.
 It’s a nice package and at the time of writing it has been downloaded 34,668 times according to Nuget gallery.&lt;/p&gt;
-
 &lt;p&gt;This nuget package is interesting because it’s working with .NET 2.0 and onwards. And at my current place of work we still use Visual Studio 2008 for one legacy project. Guess which .NET version it’s usng?
 We had problems with UDP packets being lost so I made a TCP implementation and did a Pull Request.&lt;/p&gt;
-
 &lt;p&gt;There is still one more thing I would like to do. Some kind of a load test to se how the code handles heavy load, and maybe async?&lt;/p&gt;
 </description>
     </item>
@@ -379,20 +279,20 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
       <link>https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</link>
       <pubDate>Mon, 25 Apr 2016 13:29:56 +0200</pubDate>
       <guid>https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</guid>
-      <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from &lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34;&gt;InfluxData&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from 
+&lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;InfluxData&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To install it on Ubuntu you could use apt-get package manager, or install it via .deb package. I prefer the second method.&lt;/p&gt;
-
-&lt;p&gt;You can find install instructions on their &lt;a href=&#34;https://influxdata.com/downloads/&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
-
+&lt;p&gt;You can find install instructions on their 
+&lt;a href=&#34;https://influxdata.com/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;After installation there are two config files you have to change a little to make things work.&lt;/p&gt;
-
 &lt;p&gt;First one is located in /opt/chronograf/ under name ‘config.toml’. Inside you have to expose Chronograf to public internet (see picture).&lt;/p&gt;
 
 
 
 
 
+  
+  
 
 
 
@@ -402,11 +302,16 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;ChronografConfig.jpg&#34; data-caption=&#34;Chronograf config&#34;&gt;
-&lt;img src=&#34;ChronografConfig.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+&lt;figure id=&#34;figure-chronograf-config&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Chronograf config&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;862&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -418,13 +323,14 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;Second one is located in /etc/telegraf/ under name ‘telegraf.conf’. My advice would to first to comment everything you don’t need, and then uncomment stuff you need. In my case I needed Generic TCP listener (see picture).&lt;/p&gt;
 
 
 
 
 
+  
+  
 
 
 
@@ -434,11 +340,16 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;TelegrafConfig.jpg&#34; data-caption=&#34;Telegraf config&#34;&gt;
-&lt;img src=&#34;TelegrafConfig.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+&lt;figure id=&#34;figure-telegraf-config&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Telegraf config&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;862&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -450,22 +361,19 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;After that all you need is to start the required daemons in usual manner.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo service influxdb start
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo service influxdb start
 sudo service telegraf start
 sudo service chronograf start
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Chronograf is accessible via port :10000 (&lt;a href=&#34;http://127.0.0.1:10000&#34; target=&#34;_blank&#34;&gt;http://127.0.0.1:10000&lt;/a&gt;)&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Chronograf is accessible via port :10000 (http://127.0.0.1:10000)&lt;/p&gt;
 &lt;p&gt;After opening Chronograf web interface you will have to setup InfluxDB server. Picture below should be sufficient for you to complete that task.&lt;/p&gt;
 
 
 
 
 
+  
+  
 
 
 
@@ -475,11 +383,16 @@ sudo service chronograf start
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;ChronografInfluxDBSetup.jpg&#34; data-caption=&#34;Chronograf Influx DB setup&#34;&gt;
-&lt;img src=&#34;ChronografInfluxDBSetup.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+&lt;figure id=&#34;figure-chronograf-influx-db-setup&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Chronograf Influx DB setup&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;862&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -491,7 +404,6 @@ sudo service chronograf start
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;You are done. Now all that is left is to start filling InfluxDB time-series DB with some data, and visualize it on Chronograf interface.&lt;/p&gt;
 </description>
     </item>
@@ -501,10 +413,9 @@ sudo service chronograf start
       <link>https://petar-slat.from.hr/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</link>
       <pubDate>Sat, 23 Apr 2016 22:33:30 +0200</pubDate>
       <guid>https://petar-slat.from.hr/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</guid>
-      <description>&lt;p&gt;First we are going to download &lt;a href=&#34;https://ubuntu.com/download/desktop&#34; target=&#34;_blank&#34;&gt;new Ubuntu image&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;First we are going to download 
+&lt;a href=&#34;https://ubuntu.com/download/desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;new Ubuntu image&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Lets see what are recommended system requirements.&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;2 GHz dual core processor or better&lt;/li&gt;
 &lt;li&gt;2 GB system memory&lt;/li&gt;
@@ -512,9 +423,7 @@ sudo service chronograf start
 &lt;li&gt;Either a DVD drive or a USB port for the installer media&lt;/li&gt;
 &lt;li&gt;Internet access is helpful&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Open a Hyper-V manager and create a new Virtual machine with above requirements.&lt;/p&gt;
-
 &lt;p&gt;Be sure to disable Secure Boot option if you choose to use 2nd generation of virtual machine.&lt;/p&gt;
 </description>
     </item>
@@ -530,6 +439,8 @@ sudo service chronograf start
 
 
 
+  
+  
 
 
 
@@ -539,11 +450,16 @@ sudo service chronograf start
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;ditto.jpg&#34; data-caption=&#34;Ditto&#34;&gt;
-&lt;img src=&#34;ditto.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+&lt;figure id=&#34;figure-ditto&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Ditto&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;381&#34; height=&#34;305&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -555,11 +471,10 @@ sudo service chronograf start
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;I think it’s a kind of tool that boosts your productivity.&lt;/p&gt;
-
 &lt;p&gt;Link:
-&lt;a href=&#34;http://ditto-cp.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;http://ditto-cp.sourceforge.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;http://ditto-cp.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ditto-cp.sourceforge.net/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -575,17 +490,16 @@ Hmmmm, what was I missing? I’m always missing something.
 After poking around the project I soon realized 3.2.1 was not the right version.
 Written tests were not running because they were written for version 2.6.4.
 After additional installation and setting up of test adapters for visual studio everything worked.&lt;/p&gt;
-
 &lt;p&gt;One test that’s failing is of course written by me. It’s a smoke test for TCP implementation I’m working on.&lt;/p&gt;
-
 &lt;p&gt;All the needed links are below.&lt;/p&gt;
-
 &lt;p&gt;NUnit testing Framework
-&lt;a href=&#34;http://www.nunit.org/index.php?p=download&#34; target=&#34;_blank&#34;&gt;http://www.nunit.org/index.php?p=download&lt;/a&gt;&lt;/p&gt;
 
+&lt;a href=&#34;http://www.nunit.org/index.php?p=download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.nunit.org/index.php?p=download&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;NUnit Test Adapter for Visual Studio Test Adapter
-&lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&#34; target=&#34;_blank&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&lt;/a&gt;
-&lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&#34; target=&#34;_blank&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&lt;/a&gt;
+
+&lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -596,14 +510,10 @@ After additional installation and setting up of test adapters for visual studio 
       <guid>https://petar-slat.from.hr/post/2016/04/how-to-enable-dot-net-2-0-on-windows-10/</guid>
       <description>&lt;p&gt;A few day ago I ran into a interesting issue.
 I needed .net 2.0 on Windows 10 machine.&lt;/p&gt;
-
 &lt;p&gt;Yeah, I know… welcome to the year 2016.&lt;/p&gt;
-
 &lt;p&gt;Lucky the issue is resolved easily.
 Search for “Turn Windows features on or off” or look it up in Control panel.&lt;/p&gt;
-
-&lt;p&gt;There you will find &amp;ldquo;.NET Framework 3.5 (includes .NET 2.0 and 3.0)&amp;rdquo;.&lt;/p&gt;
-
+&lt;p&gt;There you will find &amp;ldquo;.NET Framework 3.5 (includes .NET 2.0 and 3.0)&amp;quot;.&lt;/p&gt;
 &lt;p&gt;Just check it and click OK.
 The system will do the rest for you.&lt;/p&gt;
 </description>
@@ -615,9 +525,7 @@ The system will do the rest for you.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://petar-slat.from.hr/about/</guid>
       <description>&lt;p&gt;&lt;em&gt;With wealth, power and prestige come responsibilities.&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;The more you know more you have to share; That is the only way to more forward.&lt;/p&gt;
-
 &lt;p&gt;That&amp;rsquo;s my main drive; constantly learn and improve yourself and people around you.&lt;/p&gt;
 </description>
     </item>
