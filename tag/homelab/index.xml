@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>homelab | Personal ramblings</title>
+    <link>https://petar-slat.from.hr/tag/homelab/</link>
+      <atom:link href="https://petar-slat.from.hr/tag/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <description>homelab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 29 May 2020 03:32:23 +0200</lastBuildDate>
+    <image>
+      <url>https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>homelab</title>
+      <link>https://petar-slat.from.hr/tag/homelab/</link>
+    </image>
+    
+    <item>
+      <title>Homelab Series</title>
+      <link>https://petar-slat.from.hr/post/2020/05/homelab-series/</link>
+      <pubDate>Fri, 29 May 2020 03:32:23 +0200</pubDate>
+      <guid>https://petar-slat.from.hr/post/2020/05/homelab-series/</guid>
+      <description>&lt;p&gt;Idea behind Homelab series is to describe how to easily setup multiple hyper-v machines for your homelab.&lt;/p&gt;
+&lt;p&gt;People ussualy buy and setup multiple raspberry PI to learn. That is awesome, sometimes cumbersome and also expensive.
+This solution assumes you already have a strong desktop PC with lot of RAM and free HDD space.
+If you are lacking in RAM department for around 80 Euros you can get 16 Gigs of RAM.
+That is around the price of one Raspbery PI 4 after you get all the other things you need for it (case, power supply, memory card, etc&amp;hellip;)
+And if you are in a need of some quick SSD drive for around 50 Euros you coud get WD Blue or Samsung EVO with 250 Gigs.&lt;/p&gt;
+&lt;p&gt;I really think this solution is more flexibile then acquiring 4 Raspberry PIs and all accompanying equipment (Lan cabels, Lan switch, multiple memory cards + other things for raspberry PIs)&lt;/p&gt;
+&lt;h2 id=&#34;create-hyper-v-machines&#34;&gt;Create hyper-v machines&lt;/h2&gt;
+&lt;p&gt;We are going to go through quick creation.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download new Ubuntu server .iso &lt;a href=&#34;https://ubuntu.com/download/server&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Create new hyper-v virtual machine
+&lt;ul&gt;
+&lt;li&gt;For quicker installation give at lease 2 Virtual CPUs and 4 Gigs of RAM, you can change the machine settings later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We are going to create 5 virtual machines.
+One master machine, and 4 minions.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Hostname&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Virtual CPU&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;RAM (GB)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;HDD (GB)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;control&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;node01&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;node02&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;node03&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;node04&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Idea is to use control machine and connect to it via Visual Studio Code to manage it more easily.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

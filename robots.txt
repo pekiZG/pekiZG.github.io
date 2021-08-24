@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://petar-slat.from.hr/sitemap.xml

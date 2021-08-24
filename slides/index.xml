@@ -5,7 +5,7 @@
     <link>https://petar-slat.from.hr/slides/</link>
       <atom:link href="https://petar-slat.from.hr/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 30 Oct 2019 00:57:31 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 30 Oct 2019 00:57:31 +0100</lastBuildDate>
     <item>
       <title>ansible-lint</title>
       <link>https://petar-slat.from.hr/slides/ansible-lint/</link>
@@ -20,7 +20,8 @@ Check the guy out at &lt;a href=&#34;https://willthames.github.io/&#34;&gt;https
 &lt;hr&gt;
 &lt;h2 id=&#34;how-do-we-start-using-it&#34;&gt;How do we start using it?&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;pip install ansible-lint
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;what-can-we-lint&#34;&gt;What can we lint?&lt;/h2&gt;
 &lt;p&gt;Any playbook or role&lt;/p&gt;
 &lt;hr&gt;

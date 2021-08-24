@@ -5,7 +5,7 @@
     <link>https://petar-slat.from.hr/</link>
       <atom:link href="https://petar-slat.from.hr/index.xml" rel="self" type="application/rss+xml" />
     <description>Personal ramblings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 29 May 2020 03:32:23 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 29 May 2020 03:32:23 +0200</lastBuildDate>
     <image>
       <url>https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Personal ramblings</title>
@@ -27,8 +27,7 @@ And if you are in a need of some quick SSD drive for around 50 Euros you coud ge
 &lt;h2 id=&#34;create-hyper-v-machines&#34;&gt;Create hyper-v machines&lt;/h2&gt;
 &lt;p&gt;We are going to go through quick creation.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Download new Ubuntu server .iso 
-&lt;a href=&#34;https://ubuntu.com/download/server&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download new Ubuntu server .iso &lt;a href=&#34;https://ubuntu.com/download/server&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;image&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Create new hyper-v virtual machine
 &lt;ul&gt;
 &lt;li&gt;For quicker installation give at lease 2 Virtual CPUs and 4 Gigs of RAM, you can change the machine settings later&lt;/li&gt;
@@ -41,41 +40,41 @@ One master machine, and 4 minions.&lt;/p&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Hostname&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Virtual CPU&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;RAM (GB)&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;HDD (GB)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Virtual CPU&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;RAM (GB)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;HDD (GB)&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;control&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;32&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;32&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;node01&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;node02&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;node03&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;node04&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -134,7 +133,8 @@ Check the guy out at &lt;a href=&#34;https://willthames.github.io/&#34;&gt;https
 &lt;hr&gt;
 &lt;h2 id=&#34;how-do-we-start-using-it&#34;&gt;How do we start using it?&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;pip install ansible-lint
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;what-can-we-lint&#34;&gt;What can we lint?&lt;/h2&gt;
 &lt;p&gt;Any playbook or role&lt;/p&gt;
 &lt;hr&gt;
@@ -168,11 +168,17 @@ So I just looked around where can I get just the binaries.
 SlikSVN offered a solution.&lt;/p&gt;
 &lt;p&gt;Magic checkout command&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;PS \Apache-Subversion-1.12.2\bin&amp;gt; .\svn.exe checkout https://xp-dev.com/svn/OnlineNatjecanja backup --username [USERNAME]
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After that you provide a password and viola!&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After that you provide a password and viola!&lt;/p&gt;
 &lt;p&gt;What a trip down memory lane;&lt;/p&gt;
 &lt;p&gt;Is this how it looked like?
 
 
+
+
+
+
+  
 
 
 
@@ -224,7 +230,31 @@ It was old .new 2.0 windows form application, I wonder where is that laying arou
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You will have it by the end of the weekend&lt;/p&gt;&amp;mdash; Petar Šlat (@pekiZG) &lt;a href=&#34;https://twitter.com/pekiZG/status/1187407069017718785?ref_src=twsrc%5Etfw&#34;&gt;October 24, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;!-- raw HTML omitted --&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#download-and-install-git&#34;&gt;Download and install GIT&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#download-and-setup-hugo-binary-extended&#34;&gt;Download and setup hugo binary (extended)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#create-a-new-site&#34;&gt;Create a new site&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#add-gitignore-file-to-your-new-hugo-site&#34;&gt;Add .gitignore file to your new hugo site&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-time&#34;&gt;GIT time&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#init-a-repo-for-hugo-repo-for-markdown&#34;&gt;Init a repo for hugo (repo for markdown)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#add-submodule-for-public-folder&#34;&gt;add submodule for public folder&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#add-academic-theme-as-git-submodule&#34;&gt;Add Academic theme as git submodule&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#copy-example-demo-site&#34;&gt;Copy example demo site&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#cli-usage&#34;&gt;CLI usage&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#example-of-command-to-create-new-post&#34;&gt;example of command to create new post&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#run-local-site&#34;&gt;run local site&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#generate-site-in-public&#34;&gt;generate site in /public&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-of-submodules&#34;&gt;update of submodules&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
 &lt;p&gt;Below you can find TLDR; descriptions.&lt;/p&gt;
 &lt;h2 id=&#34;download-and-install-git&#34;&gt;Download and install GIT&lt;/h2&gt;
 &lt;p&gt;For windows you can get it from here:
@@ -238,29 +268,32 @@ Congratz!&lt;/p&gt;
 &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;search for (ctrl+f):&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;hugo_extended_[SEM_VERSION]_Windows-64bit.zip
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Download it and extract it where you want.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Download it and extract it where you want.&lt;/p&gt;
 &lt;p&gt;Set PATH Enviroment Variable to point to the extracted binary.&lt;/p&gt;
 &lt;p&gt;To test it you can ask for a hugo version. Open CLI (Powershell or CMD) and type &amp;ldquo;hugo version&amp;rdquo;.
 You will get output like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;PS D:\Hugo\bin&amp;gt; hugo version
-Hugo Static Site Generator v0.59.0/extended windows/amd64 BuildDate&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; unknown
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;PS D:\Hugo\bin&amp;gt; hugo version
+Hugo Static Site Generator v0.59.0/extended windows/amd64 BuildDate: unknown
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h2&gt;
 &lt;p&gt;Execute this in CLI where [my_site_name] is arbitrary name (in our example &amp;ldquo;demo-site&amp;rdquo;)&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;PS D:\Hugo\Sites&amp;gt; hugo new site &lt;span style=&#34;color:#66d9ef&#34;&gt;[my_site_name]&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;PS D:\Hugo\Sites&amp;gt; hugo new site [my_site_name]
 
-Congratulations! Your new Hugo site is created &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt; D:\Hugo\Sites\demo-site.
+Congratulations! Your new Hugo site is created in D:\Hugo\Sites\demo-site.
 
-Just a few more steps and you are ready to go&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;
+Just a few more steps and you are ready to go:
 
 1. Download a theme into the same-named folder.
-   Choose a theme from https&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;//themes.gohugo.io/ or
-   create your own with the &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;#34;&lt;/span&gt; command.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the &amp;quot;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;quot; command.
 2. Perhaps you want to add some content. You can add single files
-   with &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo new &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;#34;&lt;/span&gt;.
-3. Start the built-in live server via &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo server&amp;#34;&lt;/span&gt;.
+   with &amp;quot;hugo new &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;quot;.
+3. Start the built-in live server via &amp;quot;hugo server&amp;quot;.
 
-Visit https&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;//gohugo.io/ &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; quickstart guide and full documentation.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that you will get a folder with everythign ready to start.&lt;/p&gt;
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After that you will get a folder with everythign ready to start.&lt;/p&gt;
 &lt;h2 id=&#34;add-gitignore-file-to-your-new-hugo-site&#34;&gt;Add .gitignore file to your new hugo site&lt;/h2&gt;
 &lt;p&gt;add .gitignore content from
 &lt;a href=&#34;https://www.gitignore.io/api/hugo&#34;&gt;https://www.gitignore.io/api/hugo&lt;/a&gt;&lt;/p&gt;
@@ -272,13 +305,17 @@ And other one will hold generated static site that resides in /public folder and
 &lt;pre&gt;&lt;code&gt;git init
 git add .
 git commit -m &amp;quot;Initial commit&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Find the URL of the repository the will hold markdown content files and add it to newly created git repo.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Find the URL of the repository the will hold markdown content files and add it to newly created git repo.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git remote add origin [markdown-content-repo-URL]
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;add-submodule-for-public-folder&#34;&gt;add submodule for public folder&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;git submodule add -b master git@github.com&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;add-academic-theme-as-git-submodule&#34;&gt;Add Academic theme as git submodule&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;add-submodule-for-public-folder&#34;&gt;add submodule for public folder&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;git submodule add -b master git@github.com:&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;add-academic-theme-as-git-submodule&#34;&gt;Add Academic theme as git submodule&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;git submodule add https://github.com/gcushen/hugo-academic.git themes/hugo-academic
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;copy-example-demo-site&#34;&gt;Copy example demo site&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;copy-example-demo-site&#34;&gt;Copy example demo site&lt;/h2&gt;
 &lt;p&gt;You can find it here:
 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Just copy the content to your demo-site and run a local site via hugo command (See below).&lt;/p&gt;
@@ -286,13 +323,17 @@ git commit -m &amp;quot;Initial commit&amp;quot;
 &lt;p&gt;To get you started faster hare are some usefull commands.&lt;/p&gt;
 &lt;h3 id=&#34;example-of-command-to-create-new-post&#34;&gt;example of command to create new post&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;hugo new post/2019/10/how-to-setup-hugo-and-github-pages
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;run-local-site&#34;&gt;run local site&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;run-local-site&#34;&gt;run local site&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;hugo server -D
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;generate-site-in-public&#34;&gt;generate site in /public&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;generate-site-in-public&#34;&gt;generate site in /public&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;hugo
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;update-of-submodules&#34;&gt;update of submodules&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;update-of-submodules&#34;&gt;update of submodules&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;git submodule foreach git pull origin master
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -326,7 +367,8 @@ From time to time the VPN tunnel or internet connection just dies on you. Leavin
 &lt;a href=&#34;https://portableapps.com/apps/internet/winwget_portable&#34;&gt;https://portableapps.com/apps/internet/winwget_portable&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Once downloaded and ‘installed’ you will find the binary that you need in \WinWGetPortable\App\winwget\wget\ folder. Copy it in your download folder for quick later use. Open up command line and position yourself in the download folder. We are going to use two switches. One is -c, it tells the wget to continue from where it left (if the server permits it). Other is –limit-rate=xyz, it limits the download speed.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;wget http://domain.com/path_to_the_file -c –limit-rate=xyz
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;More about the switches can be found listing the help via command line, or in online manual.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More about the switches can be found listing the help via command line, or in online manual.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/wget/manual/wget.html&#34;&gt;https://www.gnu.org/software/wget/manual/wget.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -336,8 +378,7 @@ From time to time the VPN tunnel or internet connection just dies on you. Leavin
       <link>https://petar-slat.from.hr/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</link>
       <pubDate>Tue, 26 Apr 2016 16:53:12 +0200</pubDate>
       <guid>https://petar-slat.from.hr/post/2016/04/implemented-tcp-protocol-into-statsd-c-sharp-client/</guid>
-      <description>&lt;p&gt;I have been working on TCP protocol implementation for 
-&lt;a href=&#34;https://www.nuget.org/packages/StatsdClient/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statsd C# Client&lt;/a&gt;.
+      <description>&lt;p&gt;I have been working on TCP protocol implementation for &lt;a href=&#34;https://www.nuget.org/packages/StatsdClient/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statsd C# Client&lt;/a&gt;.
 It’s a nice package and at the time of writing it has been downloaded 34,668 times according to Nuget gallery.&lt;/p&gt;
 &lt;p&gt;This nuget package is interesting because it’s working with .NET 2.0 and onwards. And at my current place of work we still use Visual Studio 2008 for one legacy project. Guess which .NET version it’s usng?
 We had problems with UDP packets being lost so I made a TCP implementation and did a Pull Request.&lt;/p&gt;
@@ -350,15 +391,18 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
       <link>https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</link>
       <pubDate>Mon, 25 Apr 2016 13:29:56 +0200</pubDate>
       <guid>https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/</guid>
-      <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from 
-&lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;InfluxData&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;InfluxDB, Chronograf and Telegraf are part of TICK stack from &lt;a href=&#34;https://www.influxdata.com/time-series-platform/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;InfluxData&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To install it on Ubuntu you could use apt-get package manager, or install it via .deb package. I prefer the second method.&lt;/p&gt;
-&lt;p&gt;You can find install instructions on their 
-&lt;a href=&#34;https://influxdata.com/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;You can find install instructions on their &lt;a href=&#34;https://influxdata.com/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;After installation there are two config files you have to change a little to make things work.&lt;/p&gt;
 &lt;p&gt;First one is located in /opt/chronograf/ under name ‘config.toml’. Inside you have to expose Chronograf to public internet (see picture).&lt;/p&gt;
 
 
+
+
+
+
+  
 
 
 
@@ -400,6 +444,11 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 
 
+
+  
+
+
+
   
   
 
@@ -433,13 +482,19 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 &lt;/figure&gt;
 
 &lt;p&gt;After that all you need is to start the required daemons in usual manner.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo service influxdb start
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo service influxdb start
 sudo service telegraf start
 sudo service chronograf start
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Chronograf is accessible via port :10000 (http://127.0.0.1:10000)&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Chronograf is accessible via port :10000 (http://127.0.0.1:10000)&lt;/p&gt;
 &lt;p&gt;After opening Chronograf web interface you will have to setup InfluxDB server. Picture below should be sufficient for you to complete that task.&lt;/p&gt;
 
 
+
+
+
+
+  
 
 
 
@@ -484,8 +539,7 @@ sudo service chronograf start
       <link>https://petar-slat.from.hr/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</link>
       <pubDate>Sat, 23 Apr 2016 22:33:30 +0200</pubDate>
       <guid>https://petar-slat.from.hr/post/2016/04/how-to-setup-ubuntu-on-hyper-v-machine/</guid>
-      <description>&lt;p&gt;First we are going to download 
-&lt;a href=&#34;https://ubuntu.com/download/desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;new Ubuntu image&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;First we are going to download &lt;a href=&#34;https://ubuntu.com/download/desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;new Ubuntu image&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Lets see what are recommended system requirements.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2 GHz dual core processor or better&lt;/li&gt;
@@ -507,6 +561,11 @@ sudo service chronograf start
       <description>&lt;p&gt;I use this tool on a daily base. Can’t imagine how I worked without it. It’s a little tool that sits in your tray and waits on you to copy stuff. From images to text. Everything is saved and later (few clicks and copy and paste later) you can search for it and paste it again.&lt;/p&gt;
 
 
+
+
+
+
+  
 
 
 
@@ -544,7 +603,6 @@ sudo service chronograf start
 
 &lt;p&gt;I think it’s a kind of tool that boosts your productivity.&lt;/p&gt;
 &lt;p&gt;Link:
-
 &lt;a href=&#34;http://ditto-cp.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ditto-cp.sourceforge.net/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -564,12 +622,9 @@ After additional installation and setting up of test adapters for visual studio 
 &lt;p&gt;One test that’s failing is of course written by me. It’s a smoke test for TCP implementation I’m working on.&lt;/p&gt;
 &lt;p&gt;All the needed links are below.&lt;/p&gt;
 &lt;p&gt;NUnit testing Framework
-
 &lt;a href=&#34;http://www.nunit.org/index.php?p=download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.nunit.org/index.php?p=download&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;NUnit Test Adapter for Visual Studio Test Adapter
-
 &lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d&lt;/a&gt;
-
 &lt;a href=&#34;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -584,7 +639,7 @@ I needed .net 2.0 on Windows 10 machine.&lt;/p&gt;
 &lt;p&gt;Yeah, I know… welcome to the year 2016.&lt;/p&gt;
 &lt;p&gt;Lucky the issue is resolved easily.
 Search for “Turn Windows features on or off” or look it up in Control panel.&lt;/p&gt;
-&lt;p&gt;There you will find &amp;ldquo;.NET Framework 3.5 (includes .NET 2.0 and 3.0)&amp;quot;.&lt;/p&gt;
+&lt;p&gt;There you will find &amp;ldquo;.NET Framework 3.5 (includes .NET 2.0 and 3.0)&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Just check it and click OK.
 The system will do the rest for you.&lt;/p&gt;
 </description>
