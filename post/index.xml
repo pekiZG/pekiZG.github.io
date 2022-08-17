@@ -5,9 +5,9 @@
     <link>https://petar-slat.from.hr/post/</link>
       <atom:link href="https://petar-slat.from.hr/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 29 May 2020 03:32:23 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 29 May 2020 03:32:23 +0200</lastBuildDate>
     <image>
-      <url>https://petar-slat.from.hr/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://petar-slat.from.hr/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://petar-slat.from.hr/post/</link>
     </image>
@@ -98,7 +98,7 @@ Really like it because when reveiving the talk I always expect to find slides on
       <link>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/</link>
       <pubDate>Mon, 28 Oct 2019 13:33:43 +0100</pubDate>
       <guid>https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/</guid>
-      <description>&lt;p&gt;I recieved an email from &lt;a href=&#34;https://xp-dev.com/&#34;&gt;https://xp-dev.com/&lt;/a&gt; that they are shutting down their free tier.
+      <description>&lt;p&gt;I recieved an email from &lt;a href=&#34;https://xp-dev.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://xp-dev.com/&lt;/a&gt; that they are shutting down their free tier.
 And I tought; Is that still alive and kicking?&lt;/p&gt;
 &lt;p&gt;So I went through all of the ussual things you go on a site you don&amp;rsquo;t visit that often.
 Yes, I forgot my password; No, I don&amp;rsquo;t recall which e-mail I used during initial registration.&lt;/p&gt;
@@ -109,9 +109,8 @@ I do recall using TortoiseSVN, but I&amp;rsquo;m not in a mood to install it;
 So I just looked around where can I get just the binaries.
 SlikSVN offered a solution.&lt;/p&gt;
 &lt;p&gt;Magic checkout command&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;PS \Apache-Subversion-1.12.2\bin&amp;gt; .\svn.exe checkout https://xp-dev.com/svn/OnlineNatjecanja backup --username [USERNAME]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;After that you provide a password and viola!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;PS \Apache-Subversion-1.12.2\bin&amp;gt; .\svn.exe checkout https://xp-dev.com/svn/OnlineNatjecanja backup --username [USERNAME]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that you provide a password and viola!&lt;/p&gt;
 &lt;p&gt;What a trip down memory lane;&lt;/p&gt;
 &lt;p&gt;Is this how it looked like?
 
@@ -120,12 +119,6 @@ SlikSVN offered a solution.&lt;/p&gt;
 
 
 
-  
-
-
-
-  
-  
 
 
 
@@ -136,26 +129,19 @@ SlikSVN offered a solution.&lt;/p&gt;
 
 
 
-
-&lt;figure id=&#34;figure-natjecanjacomhr&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;natjecanja.com.hr&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1750&#34; height=&#34;544&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    natjecanja.com.hr
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  id=&#34;figure-natjecanjacomhr&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;natjecanja.com.hr&#34; srcset=&#34;
+               /post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_811a293b8e3a1caf5ad448eae1ef0b63.webp 400w,
+               /post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_e80d68944bbdbc7890dd02d85422bb85.webp 760w,
+               /post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://petar-slat.from.hr/post/2019/10/free-tier-svn-on-dev-xp-is-going-away/natjecanja-com-hr_hu9abbd3abd5fe060e6d02f67d7bc4e650_77853_811a293b8e3a1caf5ad448eae1ef0b63.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;236&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      natjecanja.com.hr
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Yup, it was awesome; people registered for tae-kwon-do competitions; and everythign worked.
 There was a small backoffice where you were able manage all the details.
 After registration was closed it even generated .csv file that you imported into another application.
@@ -172,8 +158,9 @@ It was old .new 2.0 windows form application, I wonder where is that laying arou
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You will have it by the end of the weekend&lt;/p&gt;&amp;mdash; Petar Šlat (@pekiZG) &lt;a href=&#34;https://twitter.com/pekiZG/status/1187407069017718785?ref_src=twsrc%5Etfw&#34;&gt;October 24, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#download-and-install-git&#34;&gt;Download and install GIT&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#download-and-setup-hugo-binary-extended&#34;&gt;Download and setup hugo binary (extended)&lt;/a&gt;&lt;/li&gt;
@@ -197,85 +184,75 @@ It was old .new 2.0 windows form application, I wonder where is that laying arou
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
+&lt;/details&gt;
 &lt;p&gt;Below you can find TLDR; descriptions.&lt;/p&gt;
 &lt;h2 id=&#34;download-and-install-git&#34;&gt;Download and install GIT&lt;/h2&gt;
 &lt;p&gt;For windows you can get it from here:
-&lt;a href=&#34;https://git-scm.com/&#34;&gt;https://git-scm.com/&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git-scm.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;After a few next, next clicks you will have Git installed.
 Congratz!&lt;/p&gt;
 &lt;h2 id=&#34;download-and-setup-hugo-binary-extended&#34;&gt;Download and setup hugo binary (extended)&lt;/h2&gt;
 &lt;p&gt;For those interested in docs you can find them here:
-&lt;a href=&#34;https://gohugo.io/getting-started/installing#windows&#34;&gt;https://gohugo.io/getting-started/installing#windows&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://gohugo.io/getting-started/installing#windows&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gohugo.io/getting-started/installing#windows&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Or visit this link for the latest release
-&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;search for (ctrl+f):&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;hugo_extended_[SEM_VERSION]_Windows-64bit.zip
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Download it and extract it where you want.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo_extended_[SEM_VERSION]_Windows-64bit.zip
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Download it and extract it where you want.&lt;/p&gt;
 &lt;p&gt;Set PATH Enviroment Variable to point to the extracted binary.&lt;/p&gt;
 &lt;p&gt;To test it you can ask for a hugo version. Open CLI (Powershell or CMD) and type &amp;ldquo;hugo version&amp;rdquo;.
 You will get output like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;PS D:\Hugo\bin&amp;gt; hugo version
-Hugo Static Site Generator v0.59.0/extended windows/amd64 BuildDate: unknown
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;PS &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;D:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Hugo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;version&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Static&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Site&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Generator&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;59&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;extended&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amd64&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BuildDate&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;unknown&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h2&gt;
 &lt;p&gt;Execute this in CLI where [my_site_name] is arbitrary name (in our example &amp;ldquo;demo-site&amp;rdquo;)&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;PS D:\Hugo\Sites&amp;gt; hugo new site [my_site_name]
-
-Congratulations! Your new Hugo site is created in D:\Hugo\Sites\demo-site.
-
-Just a few more steps and you are ready to go:
-
-1. Download a theme into the same-named folder.
-   Choose a theme from https://themes.gohugo.io/ or
-   create your own with the &amp;quot;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;quot; command.
-2. Perhaps you want to add some content. You can add single files
-   with &amp;quot;hugo new &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;quot;.
-3. Start the built-in live server via &amp;quot;hugo server&amp;quot;.
-
-Visit https://gohugo.io/ for quickstart guide and full documentation.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;After that you will get a folder with everythign ready to start.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;PS &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;D:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Hugo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sites&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;site&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;[my_site_name]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Congratulations&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;!&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Your&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;site&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;created&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;D:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Hugo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sites&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;demo-site&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Just&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;few&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;more&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;steps&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;you&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;are&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ready&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Download&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;theme&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;into&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;same-named&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;folder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;n&#34;&gt;Choose&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;theme&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;themes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gohugo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;n&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;your&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;own&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;command&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Perhaps&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;you&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;want&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;some&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;content&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;You&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;can&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;single&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;files&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;n&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hugo new &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Start &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;built-in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;live&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;server&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;via&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hugo server&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Visit&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gohugo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;quickstart&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;guide&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;full&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;documentation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that you will get a folder with everythign ready to start.&lt;/p&gt;
 &lt;h2 id=&#34;add-gitignore-file-to-your-new-hugo-site&#34;&gt;Add .gitignore file to your new hugo site&lt;/h2&gt;
 &lt;p&gt;add .gitignore content from
-&lt;a href=&#34;https://www.gitignore.io/api/hugo&#34;&gt;https://www.gitignore.io/api/hugo&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.gitignore.io/api/hugo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/hugo&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;git-time&#34;&gt;GIT time&lt;/h2&gt;
 &lt;p&gt;For next steps you will need to create two repositories under you github account.
 One will hold markdown content (.md files) and it will be a private repo.
 And other one will hold generated static site that resides in /public folder and it will be public repo.&lt;/p&gt;
 &lt;h3 id=&#34;init-a-repo-for-hugo-repo-for-markdown&#34;&gt;Init a repo for hugo (repo for markdown)&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;git init
-git add .
-git commit -m &amp;quot;Initial commit&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Find the URL of the repository the will hold markdown content files and add it to newly created git repo.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git remote add origin [markdown-content-repo-URL]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;add-submodule-for-public-folder&#34;&gt;add submodule for public folder&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-PowerShell&#34;&gt;git submodule add -b master git@github.com:&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;add-academic-theme-as-git-submodule&#34;&gt;Add Academic theme as git submodule&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;git submodule add https://github.com/gcushen/hugo-academic.git themes/hugo-academic
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;copy-example-demo-site&#34;&gt;Copy example demo site&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;Initial commit&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Find the URL of the repository the will hold markdown content files and add it to newly created git repo.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git remote add origin [markdown-content-repo-URL]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;add-submodule-for-public-folder&#34;&gt;add submodule for public folder&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;submodule&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-b&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;master&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;git&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;@github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;USERNAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;/&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;USERNAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;public&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;add-academic-theme-as-git-submodule&#34;&gt;Add Academic theme as git submodule&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-v&#34; data-lang=&#34;v&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;submodule&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//github.com/gcushen/hugo-academic.git themes/hugo-academic
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;copy-example-demo-site&#34;&gt;Copy example demo site&lt;/h2&gt;
 &lt;p&gt;You can find it here:
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Just copy the content to your demo-site and run a local site via hugo command (See below).&lt;/p&gt;
 &lt;h2 id=&#34;cli-usage&#34;&gt;CLI usage&lt;/h2&gt;
 &lt;p&gt;To get you started faster hare are some usefull commands.&lt;/p&gt;
 &lt;h3 id=&#34;example-of-command-to-create-new-post&#34;&gt;example of command to create new post&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;hugo new post/2019/10/how-to-setup-hugo-and-github-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;run-local-site&#34;&gt;run local site&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;hugo server -D
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;generate-site-in-public&#34;&gt;generate site in /public&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;hugo
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;update-of-submodules&#34;&gt;update of submodules&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;git submodule foreach git pull origin master
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new post/2019/10/how-to-setup-hugo-and-github-pages
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;run-local-site&#34;&gt;run local site&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;generate-site-in-public&#34;&gt;generate site in /public&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;update-of-submodules&#34;&gt;update of submodules&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-v&#34; data-lang=&#34;v&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;submodule&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;foreach&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pull&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;origin&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;master&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -306,12 +283,11 @@ Because all the people at my job share a 15/15 Megabit per second up/down link t
 From time to time the VPN tunnel or internet connection just dies on you. Leaving you with with a partially downloaded file. For an example Visual Studio 2015 .iso image.&lt;/p&gt;
 &lt;p&gt;You must be thinking? Well it’s 2016 and internet connections should be quicker and faster if you work in IT company. Well, guess what… that’s not the case here.&lt;/p&gt;
 &lt;p&gt;Solution is to use wget command line tool. I got mine via portable apps directory.
-&lt;a href=&#34;https://portableapps.com/apps/internet/winwget_portable&#34;&gt;https://portableapps.com/apps/internet/winwget_portable&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://portableapps.com/apps/internet/winwget_portable&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://portableapps.com/apps/internet/winwget_portable&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Once downloaded and ‘installed’ you will find the binary that you need in \WinWGetPortable\App\winwget\wget\ folder. Copy it in your download folder for quick later use. Open up command line and position yourself in the download folder. We are going to use two switches. One is -c, it tells the wget to continue from where it left (if the server permits it). Other is –limit-rate=xyz, it limits the download speed.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;wget http://domain.com/path_to_the_file -c –limit-rate=xyz
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More about the switches can be found listing the help via command line, or in online manual.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/wget/manual/wget.html&#34;&gt;https://www.gnu.org/software/wget/manual/wget.html&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget http://domain.com/path_to_the_file -c –limit-rate=xyz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;More about the switches can be found listing the help via command line, or in online manual.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/wget/manual/wget.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gnu.org/software/wget/manual/wget.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -344,12 +320,6 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 
 
-  
-
-
-
-  
-  
 
 
 
@@ -360,26 +330,19 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 
 
-
-&lt;figure id=&#34;figure-chronograf-config&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Chronograf config&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;862&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Chronograf config
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-chronograf-config&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Chronograf config&#34; srcset=&#34;
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_1d93799d9efc224b85f6db966c3bf543.webp 400w,
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_d313192b46c09071a0f6e607b8c9ac9a.webp 760w,
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografConfig_hu0c938e63f0f830080e76675c01932eb7_111813_1d93799d9efc224b85f6db966c3bf543.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;640&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Chronograf config
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Second one is located in /etc/telegraf/ under name ‘telegraf.conf’. My advice would to first to comment everything you don’t need, and then uncomment stuff you need. In my case I needed Generic TCP listener (see picture).&lt;/p&gt;
 
 
@@ -387,12 +350,6 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 
 
-  
-
-
-
-  
-  
 
 
 
@@ -403,32 +360,24 @@ We had problems with UDP packets being lost so I made a TCP implementation and d
 
 
 
-
-&lt;figure id=&#34;figure-telegraf-config&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Telegraf config&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;862&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Telegraf config
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-telegraf-config&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Telegraf config&#34; srcset=&#34;
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_57c503516b670d843225c97d2040f14e.webp 400w,
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_29ca0cc4ea5c62bfe309cef2d2975722.webp 760w,
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/TelegrafConfig_hu0c938e63f0f830080e76675c01932eb7_130959_57c503516b670d843225c97d2040f14e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;640&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Telegraf config
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;After that all you need is to start the required daemons in usual manner.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo service influxdb start
-sudo service telegraf start
-sudo service chronograf start
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Chronograf is accessible via port :10000 (http://127.0.0.1:10000)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo service influxdb start
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo service telegraf start
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo service chronograf start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Chronograf is accessible via port :10000 (http://127.0.0.1:10000)&lt;/p&gt;
 &lt;p&gt;After opening Chronograf web interface you will have to setup InfluxDB server. Picture below should be sufficient for you to complete that task.&lt;/p&gt;
 
 
@@ -436,12 +385,6 @@ sudo service chronograf start
 
 
 
-  
-
-
-
-  
-  
 
 
 
@@ -452,26 +395,19 @@ sudo service chronograf start
 
 
 
-
-&lt;figure id=&#34;figure-chronograf-influx-db-setup&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Chronograf Influx DB setup&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;862&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Chronograf Influx DB setup
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-chronograf-influx-db-setup&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Chronograf Influx DB setup&#34; srcset=&#34;
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_a16a12a5f4417cc6871c52375ebebad7.webp 400w,
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_1970dff5c4ed1f1476e486eead2a96d3.webp 760w,
+               /post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://petar-slat.from.hr/post/2016/04/how-to-setup-influxdb-chronograf-and-telegraf-for-development/ChronografInfluxDBSetup_hu0c938e63f0f830080e76675c01932eb7_70672_a16a12a5f4417cc6871c52375ebebad7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;640&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Chronograf Influx DB setup
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;You are done. Now all that is left is to start filling InfluxDB time-series DB with some data, and visualize it on Chronograf interface.&lt;/p&gt;
 </description>
     </item>
@@ -507,12 +443,6 @@ sudo service chronograf start
 
 
 
-  
-
-
-
-  
-  
 
 
 
@@ -523,26 +453,19 @@ sudo service chronograf start
 
 
 
-
-&lt;figure id=&#34;figure-ditto&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://petar-slat.from.hr/post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Ditto&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://petar-slat.from.hr/post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;381&#34; height=&#34;305&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Ditto
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-ditto&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ditto&#34; srcset=&#34;
+               /post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_7cd0a37e01ef9487134d706a4d876aae.webp 400w,
+               /post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_4156481e07b31c76b4877d68da13986f.webp 760w,
+               /post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://petar-slat.from.hr/post/2016/04/ditto-copy-paste-manager/ditto_hu2ae2f761a241d4cd24a064893b00ed91_25658_7cd0a37e01ef9487134d706a4d876aae.webp&#34;
+               width=&#34;381&#34;
+               height=&#34;305&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Ditto
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;I think it’s a kind of tool that boosts your productivity.&lt;/p&gt;
 &lt;p&gt;Link:
 &lt;a href=&#34;http://ditto-cp.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ditto-cp.sourceforge.net/&lt;/a&gt;&lt;/p&gt;
